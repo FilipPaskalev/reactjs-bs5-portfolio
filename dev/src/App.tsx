@@ -1,13 +1,15 @@
-import About from "./About";
-import "./App.css";
-import NavBar from "./NavBar";
-import NavBar1 from "./NavBar1";
+// Styles
+import "./app.css";
+// Components
+import NavBar from "./components/NavBar";
+// Pages
+import HomePage from "./pages/home/HomePage";
 
 function App() {
   return (
     <>
-      <NavBar1 />
-      <About />
+      <NavBar />
+      <HomePage />
     </>
   );
 }
