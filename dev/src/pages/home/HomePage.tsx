@@ -1,14 +1,16 @@
 // Styles
 import "./home-page.css";
 
-// Components
+// Custom components
 import WelcomeSection from "../../sections/welcome/WelcomeSection";
 import ExperienceSection from "../../sections/experience/ExperienceSection";
 import EducationSection from "../../sections/education/EducationSection";
 import SkillsSection from "../../sections/skills/SkillsSection";
 import AwardsSection from "../../sections/awards/AwardsSection";
 import InterestsSection from "../../sections/interests/InterestsSection";
-import { Container } from "react-bootstrap";
+
+// React Bootstrap components
+import Container from "react-bootstrap/Container";
 
 const HomePage = () => {
   return (
