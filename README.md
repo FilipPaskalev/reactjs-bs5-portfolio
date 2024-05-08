@@ -1,5 +1,5 @@
-# Portfolio
-
+# Portfolio 
+<!-- TODO change project name -->
 <!-- TODO add three -->
 
 
@@ -61,6 +61,8 @@ npm install
 ## Design
 
 ### Breakpoints
+
+<!-- Add description that Bootstrap 5 breakpoint will be used in the project -->
 
 | Breakpoint | Size |
 |------------|------|
@@ -153,15 +155,15 @@ npm install
 ## About
 <!-- TODO write something for about section-->
 
-### Version 1.0.0
+## Change log
 
-#### Information
+<!-- Add information what can be found in this section -->
+
+### Version 1.0.0 
 - Initial version and release
 - Add TypeScript to the project
 - Add React Bootstrap to the project
 - Refactor the project to Bootstrap 5
-
-#### About Me section (page)
 - Refactor the About section in components
 - Received the data for the section from JSON file in main component
 - All received data has Types and Interfaces
