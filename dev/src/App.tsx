@@ -1,10 +1,13 @@
+import About from "./About";
 import "./App.css";
 import NavBar from "./NavBar";
+import NavBar1 from "./NavBar1";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar1 />
+      <About />
     </>
   );
 }
