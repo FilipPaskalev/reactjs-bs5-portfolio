@@ -1,3 +1,8 @@
+// Utils & data
+import EDUCATION_DATA from "../../data/education.json";
+
+// TODO: finish implementing EducationSection with taking the data from EDUCATION_DATA
+
 const EducationSection = () => {
   return (
     <section className="resume-section" id="education">
