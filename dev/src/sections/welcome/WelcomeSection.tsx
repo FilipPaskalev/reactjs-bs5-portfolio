@@ -39,7 +39,9 @@ const WelcomeSection = () => {
       <div className="resume-section-content">
         <h1 className="mb-0">
           {DATA.firstName}
-          <span className="text-primary">{DATA.lastName}</span>
+          <span className="text-primary">
+            <b>{DATA.lastName}</b>
+          </span>
         </h1>
         <div className="subheading mb-5">
           {formatterAddress}

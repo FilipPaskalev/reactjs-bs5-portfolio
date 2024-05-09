@@ -4,6 +4,9 @@ import "./nav-bar.css";
 // Assets
 import AVATAR_HI from "../assets/avatar-hi.png";
 
+// Utils & data
+import USER_DATA from "../data/user.json";
+
 const NavBar = () => {
   return (
     <nav
@@ -11,7 +14,11 @@ const NavBar = () => {
       id="sideNav"
     >
       <a className="navbar-brand js-scroll-trigger" href="#page-top">
-        <span className="d-block d-lg-none">Clarence Taylor</span>
+        <span className="d-block d-lg-none">
+          <b>
+            {USER_DATA.firstName} {USER_DATA.lastName}
+          </b>
+        </span>
         <span className="d-none d-lg-block">
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
