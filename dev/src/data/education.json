@@ -2,17 +2,17 @@
   {
     "institution": "University of Colorado Boulder",
     "degree": "Bachelor of Science",
-    "field_of_study": "Computer Science - Web Development Track",
+    "fieldOfStudy": "Computer Science - Web Development Track",
     "grade": "3.23",
-    "start_date": "August 2006",
-    "end_date": "May 2010"
+    "startDate": "August 2006",
+    "endDate": "May 2010"
   },
   {
     "institution": "James Buchanan High School",
     "degree": "Technology Magnet Program",
-    "field_of_study": "Technology",
+    "fieldOfStudy": "Technology",
     "grade": "3.56",
-    "start_date": "August 2002",
-    "end_date": "May 2006"
+    "startDate": "August 2002",
+    "endDate": "May 2006"
   }
 ]

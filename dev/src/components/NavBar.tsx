@@ -1,6 +1,3 @@
-// Styles
-import "./nav-bar.css";
-
 // Assets
 import AVATAR_HI from "../assets/avatar-hi.png";
 

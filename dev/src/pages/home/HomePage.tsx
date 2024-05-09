@@ -1,6 +1,3 @@
-// Styles
-import "./home-page.css";
-
 // Custom components
 import AboutMeSection from "../../sections/aboutMe/AboutMeSection";
 import ExperienceSection from "../../sections/experience/ExperienceSection";

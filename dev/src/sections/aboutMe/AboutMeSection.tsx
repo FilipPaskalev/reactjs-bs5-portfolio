@@ -1,6 +1,3 @@
-// Styles
-import "./about-me-section.css";
-
 // Font Awesome Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
