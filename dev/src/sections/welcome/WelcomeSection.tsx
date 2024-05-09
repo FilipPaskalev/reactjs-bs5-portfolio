@@ -7,11 +7,24 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons/faFacebookF";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons/faDiscord";
+import { faSlack } from "@fortawesome/free-brands-svg-icons/faSlack";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons/faWhatsapp";
+import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
 
 import DATA from "../../data/user.json";
+import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons/faFacebookMessenger";
+import { faViber } from "@fortawesome/free-brands-svg-icons/faViber";
 
+// TODO?: icons for phone number could be add to navigation menu
 // TODO: Add type definitions for DATA
 // TODO: Add animations to the social icons on hover
+// TODO: Finish Discord icon + add info in user.json for Discord
+// TODO: Finish Slack icon + add info in user.json for Slack
+// TODO: Finish Whatsapp icon + add info in user.json for Whatsapp + add icon to phone number
+// TODO: Finish Telegram icon + add info in user.json for Telegram + add icon to phone number
+// TODO: Finish Facebook Messenger icon + add info in user.json for Facebook Messenger + add icon to phone number
+// TODO: Finish Viber icon + add info in user.json for Viber + add icon to phone number
 
 const WelcomeSection = () => {
   const mailTo = `mailto:${DATA.email}`;
@@ -81,6 +94,66 @@ const WelcomeSection = () => {
             target="_blank"
           >
             <FontAwesomeIcon icon={faFacebookF} />
+          </a>
+          <a
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title={"TODO"}
+            className="social-icon"
+            href={"TODO"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faDiscord} />
+          </a>
+          <a
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title={"TODO faSlack"}
+            className="social-icon"
+            href={"TODO faSlack"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faSlack} />
+          </a>
+          <a
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title={"TODO faWhatsapp"}
+            className="social-icon"
+            href={"TODO faWhatsapp"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </a>
+          <a
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title={"TODO faTelegram"}
+            className="social-icon"
+            href={"TODO faTelegram"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTelegram} />
+          </a>
+          <a
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title={"TODO faFacebookMessenger"}
+            className="social-icon"
+            href={"TODO faFacebookMessenger"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faFacebookMessenger} />
+          </a>
+          <a
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title={"TODO faViber"}
+            className="social-icon"
+            href={"TODO faViber"}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faViber} />
           </a>
         </div>
       </div>
