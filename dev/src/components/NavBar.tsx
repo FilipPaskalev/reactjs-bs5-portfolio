@@ -15,7 +15,7 @@ const NavBar = () => {
       className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
       id="sideNav"
     >
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">
+      <a className="navbar-brand" href="#page-top">
         <span className="d-block d-lg-none">
           <b>
             {USER_DATA.firstName} {USER_DATA.lastName}
