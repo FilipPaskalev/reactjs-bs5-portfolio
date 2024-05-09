@@ -7,6 +7,8 @@ import AVATAR_HI from "../assets/avatar-hi.png";
 // Utils & data
 import USER_DATA from "../data/user.json";
 
+// TODO: REFACTOR - replace components with React Bootstrap components for better readability
+
 const NavBar = () => {
   return (
     <nav
