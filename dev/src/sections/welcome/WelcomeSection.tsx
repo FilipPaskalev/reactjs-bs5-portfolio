@@ -14,7 +14,7 @@ import DATA from "../../data/user.json";
 // TODO: Add animations to the social icons on hover
 
 const WelcomeSection = () => {
-  const mailTo = `mailto:%{DATA.email}`;
+  const mailTo = `mailto:${DATA.email}`;
   const formattedPhoneNumber = DATA.phoneNumber.replace(
     /(\d{2})(\d{4})(\d{3})(\d{3})/,
     "($1) $2 $3 $4"
