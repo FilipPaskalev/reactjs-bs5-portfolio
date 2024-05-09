@@ -1,3 +1,5 @@
+// TODO: Add replace icons with icons from Font Awesome || other font icon libraries
+
 const AwardsSection = () => {
   return (
     <section className="resume-section" id="awards">
