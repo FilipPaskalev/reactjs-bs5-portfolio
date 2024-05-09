@@ -1,5 +1,11 @@
 // Styles
 import "./welcome-section.css";
+// Font Awesome
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons/faFacebookF";
 
 const WelcomeSection = () => {
   return (
@@ -21,16 +27,16 @@ const WelcomeSection = () => {
         </p>
         <div className="social-icons">
           <a className="social-icon" href="#!">
-            <i className="fab fa-linkedin-in"></i>
+            <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
           <a className="social-icon" href="#!">
-            <i className="fab fa-github"></i>
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a className="social-icon" href="#!">
-            <i className="fab fa-twitter"></i>
+            <FontAwesomeIcon icon={faXTwitter} />
           </a>
           <a className="social-icon" href="#!">
-            <i className="fab fa-facebook-f"></i>
+            <FontAwesomeIcon icon={faFacebookF} />
           </a>
         </div>
       </div>
