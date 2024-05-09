@@ -41,38 +41,38 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#about">
+            <a className="nav-link" href="#about">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#experience">
+            <a className="nav-link" href="#experience">
               Experience
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#education">
+            <a className="nav-link" href="#education">
               Education
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#skills">
+            <a className="nav-link" href="#skills">
               Skills
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#interests">
+            <a className="nav-link" href="#interests">
               Interests
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#awards">
+            <a className="nav-link" href="#awards">
               Awards
             </a>
           </li>
           <hr className="m-0" />
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="/about-project">
+            <a className="nav-link" href="/about-project">
               About this project
             </a>
           </li>
