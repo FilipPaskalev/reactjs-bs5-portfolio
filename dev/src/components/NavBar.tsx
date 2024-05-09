@@ -1,5 +1,6 @@
 // Styles
 import "./nav-bar.css";
+
 // Assets
 import AVATAR_HI from "../assets/avatar-hi.png";
 
@@ -60,6 +61,12 @@ const NavBar = () => {
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#awards">
               Awards
+            </a>
+          </li>
+          <hr className="m-0" />
+          <li className="nav-item">
+            <a className="nav-link js-scroll-trigger" href="/about-project">
+              About this project
             </a>
           </li>
         </ul>
