@@ -1,5 +1,5 @@
 // Styles
-import "./welcome-section.css";
+import "./about-me-section.css";
 
 // Font Awesome Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,7 +26,7 @@ import { faViber } from "@fortawesome/free-brands-svg-icons/faViber";
 // TODO: Finish Facebook Messenger icon + add info in user.json for Facebook Messenger + add icon to phone number
 // TODO: Finish Viber icon + add info in user.json for Viber + add icon to phone number
 
-const WelcomeSection = () => {
+const AboutMeSection = () => {
   const mailTo = `mailto:${DATA.email}`;
   const formattedPhoneNumber = DATA.phoneNumber.replace(
     /(\d{2})(\d{4})(\d{3})(\d{3})/,
@@ -50,7 +50,7 @@ const WelcomeSection = () => {
           {" · "}
           <a href={mailTo}>{DATA.email}</a>
         </div>
-        <p className="lead mb-5">
+        <p title="About me" className="lead mb-5">
           I am experienced in leveraging agile frameworks to provide a robust
           synopsis for high level overviews. Iterative approaches to corporate
           strategy foster collaborative thinking to further the overall value
@@ -163,4 +163,4 @@ const WelcomeSection = () => {
   );
 };
 
-export default WelcomeSection;
+export default AboutMeSection;

@@ -2,7 +2,7 @@
 import "./home-page.css";
 
 // Custom components
-import WelcomeSection from "../../sections/welcome/WelcomeSection";
+import AboutMeSection from "../../sections/aboutMe/AboutMeSection";
 import ExperienceSection from "../../sections/experience/ExperienceSection";
 import EducationSection from "../../sections/education/EducationSection";
 import SkillsSection from "../../sections/skills/SkillsSection";
@@ -15,7 +15,7 @@ import Container from "react-bootstrap/Container";
 const HomePage = () => {
   return (
     <Container className="p-0" fluid>
-      <WelcomeSection />
+      <AboutMeSection />
       <hr className="m-0" />
       <ExperienceSection />
       <hr className="m-0" />
