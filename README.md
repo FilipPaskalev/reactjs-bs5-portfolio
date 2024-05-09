@@ -150,6 +150,15 @@ npm install
 | [How to format international telephone numbers](https://www.cm.com/en-gb/blog/how-to-format-international-telephone-numbers/#:~:text=The%20UK%20mobile%20phone%20number,all%20characters%20should%20be%20numeric.)
 | [Awesome React Bootstrap Component](https://github.com/Hermanya/awesome-react-bootstrap-components)
 | [React Bootstrap VS Bootstrap](https://www.linkedin.com/pulse/react-bootstrap-vs-bootsrap-comparison-nitsan-cohen/?trackingId=0s24d1NLzZv4HsIOHl90BQ%3D%3D)
+| [Set Up FontAwesome with React](https://docs.fontawesome.com/web/use-with/react/)
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
 | Recourse |
 
 ## About
