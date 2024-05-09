@@ -161,6 +161,9 @@ npm install
 | Recourse
 | Recourse |
 
+### Graphical resources
+https://devicon.dev/
+
 ## About
 <!-- TODO write something for about section-->
 
