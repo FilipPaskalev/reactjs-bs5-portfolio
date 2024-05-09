@@ -151,7 +151,7 @@ npm install
 | [Awesome React Bootstrap Component](https://github.com/Hermanya/awesome-react-bootstrap-components)
 | [React Bootstrap VS Bootstrap](https://www.linkedin.com/pulse/react-bootstrap-vs-bootsrap-comparison-nitsan-cohen/?trackingId=0s24d1NLzZv4HsIOHl90BQ%3D%3D)
 | [Set Up FontAwesome with React](https://docs.fontawesome.com/web/use-with/react/)
-| Recourse
+| [How to set up Font Awesome in React](https://dev.to/davidemaye/how-to-set-up-font-awesome-in-react-5a8d)
 | Recourse
 | Recourse
 | Recourse
