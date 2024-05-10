@@ -1,4 +1,4 @@
-const About = () => {
+const AboutProjectPage = () => {
   return (
     <div className="container-fluid p-0">
       <div>About this project page</div>
@@ -6,4 +6,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutProjectPage;
