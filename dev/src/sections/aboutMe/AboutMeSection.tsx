@@ -32,7 +32,7 @@ const AboutMeSection = () => {
   const formatterAddress = `${DATA.address.street} · ${DATA.address.city}, ${DATA.address.country} · ${DATA.address.postCode}`;
 
   return (
-    <section className="resume-section" id="about">
+    <section className="resume-section" id="about-me">
       <div className="resume-section-content">
         <h1 className="mb-0">
           {DATA.firstName}

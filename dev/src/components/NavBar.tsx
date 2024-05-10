@@ -40,8 +40,8 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="#about">
-              About
+            <a className="nav-link" href="#about-me">
+              About Me
             </a>
           </li>
           <li className="nav-item">
@@ -69,10 +69,10 @@ const NavBar = () => {
               Awards
             </a>
           </li>
-          <hr className="m-0" />
-          <li className="nav-item">
+          <hr className="m-0 bg-body-secondary" />
+          <li className="nav-item" id="about-this-project-link">
             <a className="nav-link" href="/about-project">
-              About this project
+              Project info
             </a>
           </li>
         </ul>
