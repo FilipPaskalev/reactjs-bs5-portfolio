@@ -1,8 +1,12 @@
 // Assets
-import AVATAR_HI from "../assets/avatar-hi.png";
+import AVATAR_HI from "/public/assets/avatar-hi.png";
 
 // Utils & data
-import USER_DATA from "../data/user.json";
+import USER_DATA from "../../public/data/user.json";
+
+import { FaHouseChimney } from "react-icons/fa6";
+import { GiSoapExperiment } from "react-icons/gi";
+import { AiTwotoneExperiment } from "react-icons/ai";
 
 // TODO: REFACTOR - replace components with React Bootstrap components for better readability
 
@@ -41,11 +45,13 @@ const NavBar = () => {
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link" href="#about-me">
+              {/* <FaHouseChimney /> */}
               About Me
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#experience">
+              {/* <AiTwotoneExperiment /> */}
               Experience
             </a>
           </li>
@@ -56,7 +62,7 @@ const NavBar = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#skills">
-              Skills
+              My Skills
             </a>
           </li>
           <li className="nav-item">
@@ -69,10 +75,10 @@ const NavBar = () => {
               Awards
             </a>
           </li>
-          <hr className="m-0 bg-body-secondary" />
+          <hr className="m-0" />
           <li className="nav-item" id="about-this-project-link">
             <a className="nav-link" href="/about-project">
-              Project info
+              Documentation
             </a>
           </li>
         </ul>

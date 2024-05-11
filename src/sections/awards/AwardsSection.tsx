@@ -1,4 +1,8 @@
 // TODO: Add replace icons with icons from Font Awesome || other font icon libraries
+import { FaAward } from "react-icons/fa6";
+import { FaTrophy } from "react-icons/fa6";
+import { FaMedal } from "react-icons/fa6";
+import { GrAchievement } from "react-icons/gr";
 
 const AwardsSection = () => {
   return (
@@ -8,19 +12,22 @@ const AwardsSection = () => {
         <ul className="fa-ul mb-0">
           <li>
             <span className="fa-li">
-              <i className="fas fa-trophy text-warning"></i>
+              {/* <i className="fas fa-trophy text-warning"></i> */}
+              <FaAward className="text-warning" />
             </span>
             Google Analytics Certified Developer
           </li>
           <li>
             <span className="fa-li">
-              <i className="fas fa-trophy text-warning"></i>
+              {/* <i className="fas fa-trophy text-warning"></i> */}
+              <FaTrophy className="text-warning" />
             </span>
             Mobile Web Specialist - Google Certification
           </li>
           <li>
             <span className="fa-li">
-              <i className="fas fa-trophy text-warning"></i>
+              {/* <i className="fas fa-trophy text-warning"></i> */}
+              <FaMedal className="text-warning" />
             </span>
             1<sup>st</sup>
             Place - University of Colorado Boulder - Emerging Tech Competition
@@ -28,7 +35,8 @@ const AwardsSection = () => {
           </li>
           <li>
             <span className="fa-li">
-              <i className="fas fa-trophy text-warning"></i>
+              {/* <i className="fas fa-trophy text-warning"></i> */}
+              <GrAchievement className="text-warning" />
             </span>
             1<sup>st</sup>
             Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI

@@ -9,7 +9,13 @@ import { faSlack } from "@fortawesome/free-brands-svg-icons/faSlack";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons/faWhatsapp";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
 
-import DATA from "../../data/user.json";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+
+// DATA
+import DATA from "../../../public/data/user.json";
+
+// Font Awesome Icons
 import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons/faFacebookMessenger";
 import { faViber } from "@fortawesome/free-brands-svg-icons/faViber";
 
@@ -62,7 +68,7 @@ const AboutMeSection = () => {
             href={DATA.social.linkedin.href}
             target="_blank"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} />
+            <FaLinkedinIn />
           </a>
           <a
             data-bs-toggle="tooltip"
@@ -72,7 +78,7 @@ const AboutMeSection = () => {
             href={DATA.social.github.href}
             target="_blank"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FaGithub />
           </a>
           <a
             data-bs-toggle="tooltip"
