@@ -11,6 +11,7 @@ import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
 
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
+import * as REACT_ICON from "react-icons";
 
 // DATA
 import DATA from "../../../public/data/user.json";

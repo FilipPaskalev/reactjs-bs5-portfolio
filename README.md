@@ -163,6 +163,7 @@ npm install
 
 ### Graphical resources
 https://devicon.dev/
+https://github.com/react-icons/react-icons
 
 ## About
 <!-- TODO write something for about section-->
