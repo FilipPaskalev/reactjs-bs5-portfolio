@@ -31,16 +31,19 @@ const EducationCard = ({
     <section className="d-flex flex-column flex-md-row justify-content-between mb-5">
       <hgroup className="flex-grow-1">
         <h3 className="mb-0">
-          <MdWhereToVote /> {institution.name}
+          {/* <MdWhereToVote />  */}
+          {institution.name}
           <a href={institution.website} target="_blank">
             <CiLink />
           </a>
         </h3>
         <h4 className="mb-1 text-primary">
-          <GiDiploma /> {degree}
+          {/* <GiDiploma />  */}
+          {degree}
         </h4>
         <h6 className="mb-4">
-          <FiTarget className="mb-1" /> {fieldOfStudy}
+          {/* <FiTarget className="mb-1" />  */}
+          {fieldOfStudy}
         </h6>
         {description.map((desc, index) => (
           <p key={index} className="my-0">
