@@ -3,7 +3,12 @@
     "institution": "University of Colorado Boulder",
     "degree": "Bachelor of Science",
     "fieldOfStudy": "Computer Science - Web Development Track",
-    "grade": "3.23",
+    "description": [
+      "Here is some information about my education.",
+      "And my degree.",
+      "And my field of study."
+    ],
+    "grade": "GPA: 3.23",
     "startDate": "August 2006",
     "endDate": "May 2010"
   },
@@ -11,7 +16,8 @@
     "institution": "James Buchanan High School",
     "degree": "Technology Magnet Program",
     "fieldOfStudy": "Technology",
-    "grade": "3.56",
+    "description": ["Here is some information about my education."],
+    "grade": "GPA: 3.56",
     "startDate": "August 2002",
     "endDate": "May 2006"
   }
