@@ -1,6 +1,7 @@
 import { CiLink } from "react-icons/ci";
 import { IoCalendarNumberOutline } from "react-icons/io5";
 
+// TODO add icons after position in header (icons should be connected skills with position )
 type Props = {
   position: string;
   company: {
