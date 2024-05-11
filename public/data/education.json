@@ -1,6 +1,9 @@
 [
   {
-    "institution": "University of Colorado Boulder",
+    "institution": {
+      "name": "University of Colorado Boulder",
+      "website": "https://www.colorado.edu/"
+    },
     "degree": "Bachelor of Science",
     "fieldOfStudy": "Computer Science - Web Development Track",
     "description": [
@@ -13,7 +16,10 @@
     "endDate": "May 2010"
   },
   {
-    "institution": "James Buchanan High School",
+    "institution": {
+      "name": "James Buchanan High School",
+      "website": "https://www.chambersburg.k12.pa.us/"
+    },
     "degree": "Technology Magnet Program",
     "fieldOfStudy": "Technology",
     "description": ["Here is some information about my education."],
