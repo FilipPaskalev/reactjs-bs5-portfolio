@@ -1,6 +1,5 @@
 import { IoCalendarNumberOutline } from "react-icons/io5";
 import { FaTrophy } from "react-icons/fa6";
-import { FaShareAlt } from "react-icons/fa";
 import { CiLink } from "react-icons/ci";
 import { GiDiploma } from "react-icons/gi";
 import { MdWhereToVote } from "react-icons/md";
