@@ -39,9 +39,9 @@ const EducationCard = ({
         <h4 className="mb-1 text-primary">
           <GiDiploma /> {degree}
         </h4>
-        <h5 className="subheading mb-3">
+        <h6 className="mb-4">
           <FiTarget className="mb-1" /> {fieldOfStudy}
-        </h5>
+        </h6>
         {description.map((desc, index) => (
           <p key={index} className="my-0">
             {desc}
