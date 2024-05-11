@@ -21,7 +21,7 @@ const EducationCard = ({
     <section className="d-flex flex-column flex-md-row justify-content-between mb-5">
       <hgroup className="flex-grow-1">
         <h3 className="mb-0">{institution}</h3>
-        <h4 className="subheading mb-3">{degree}</h4>
+        <h4 className="mb-3 text-muted">{degree}</h4>
         <h5 className="subheading">{fieldOfStudy}</h5>
         {description.map((desc, index) => (
           <p key={index} className="my-0">
