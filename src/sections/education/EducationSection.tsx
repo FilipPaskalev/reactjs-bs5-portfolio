@@ -1,5 +1,5 @@
 // Utils & data
-import EducationCard from "../../components/cards/education/EducationCard";
+import EducationCard from "../../components/educationCard/EducationCard";
 import EDUCATION_DATA from "../../../public/data/education.json";
 
 // TODO: finish implementing EducationSection with taking the data from EDUCATION_DATA

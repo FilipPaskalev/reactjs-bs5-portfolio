@@ -1,5 +1,5 @@
 import EXPERIENCE_DATA from "../../../public/data/experience.json";
-import ExperienceCard from "../../components/cards/experience/experienceCard";
+import ExperienceCard from "../../components/experienceCard/experienceCard";
 
 const ExperienceSection = () => {
   return (
