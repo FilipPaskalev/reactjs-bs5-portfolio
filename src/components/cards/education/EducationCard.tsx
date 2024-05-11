@@ -42,13 +42,12 @@ const EducationCard = ({
           </p>
         ))}
         <p className="my-3">
-          <FaTrophy className="text-primary mb-1" /> {grade}
+          <FaTrophy className="text-warning mb-1" /> {grade}
         </p>
       </hgroup>
-      <footer className="flex-shrink-0">
+      <footer className="text-primary flex-shrink-0">
         <p>
-          <IoCalendarNumberOutline className="text-primary mb-1" /> {startDate}{" "}
-          - {endDate}
+          <IoCalendarNumberOutline className="mb-1" /> {startDate} - {endDate}
         </p>
       </footer>
     </section>
