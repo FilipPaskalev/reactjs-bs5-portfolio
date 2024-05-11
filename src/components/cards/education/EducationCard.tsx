@@ -34,7 +34,7 @@ const EducationCard = ({
             <CiLink />
           </a>
         </h3>
-        <h4 className="mb-1 text-muted">{degree}</h4>
+        <h4 className="mb-1 text-primary">{degree}</h4>
         <h5 className="subheading mb-3">{fieldOfStudy}</h5>
         {description.map((desc, index) => (
           <p key={index} className="my-0">
@@ -42,13 +42,13 @@ const EducationCard = ({
           </p>
         ))}
         <p className="my-3">
-          <FaTrophy className="text-primary" /> {grade}
+          <FaTrophy className="text-primary mb-1" /> {grade}
         </p>
       </hgroup>
       <footer className="flex-shrink-0">
         <p>
-          <IoCalendarNumberOutline className="text-primary" /> {startDate} -{" "}
-          {endDate}
+          <IoCalendarNumberOutline className="text-primary mb-1" /> {startDate}{" "}
+          - {endDate}
         </p>
       </footer>
     </section>
