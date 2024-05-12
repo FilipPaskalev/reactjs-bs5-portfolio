@@ -69,7 +69,7 @@ const NavBar = () => {
               Awards
             </a>
           </li>
-          <hr className="m-0" />
+          <hr className="m-0 px-2 text-light" />
           <li className="nav-item" id="about-this-project-link">
             <a className="nav-link" href="/about-project">
               Documentation
