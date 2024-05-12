@@ -1,9 +1,6 @@
 import { IoCalendarNumberOutline } from "react-icons/io5";
 import { FaTrophy } from "react-icons/fa6";
 import { CiLink } from "react-icons/ci";
-import { GiDiploma } from "react-icons/gi";
-import { MdWhereToVote } from "react-icons/md";
-import { FiTarget } from "react-icons/fi";
 
 type Props = {
   institution: {
