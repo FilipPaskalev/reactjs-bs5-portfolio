@@ -77,11 +77,23 @@ const NavBar = () => {
               Awards
             </Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/certifications">
+              Certifications
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/projects">
+              Projects
+            </Link>
+          </li>
+
           <hr className="m-0 px-2 text-light" />
+
           <li className="nav-item" id="about-this-project-link">
-            <a className="nav-link" href="/about-project">
+            <Link className="nav-link" to="/project-documentation">
               Documentation
-            </a>
+            </Link>
           </li>
           <Container className="social-icons">
             <a

@@ -1,8 +1,10 @@
 const DocumentationPage = () => {
   return (
-    <div className="container-fluid p-0">
-      <div>About this project page</div>
-    </div>
+    <section className="resume-section" id="project-documentation">
+      <div className="resume-section-content">
+        <h2>Documentation of this project</h2>
+      </div>
+    </section>
   );
 };
 

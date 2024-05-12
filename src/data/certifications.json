@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Google Cloud Certified - Professional Cloud Architect",
+    "url": "https://cloud.google.com/certification/cloud-architect",
+    "description": "A Professional Cloud Architect enables organizations to leverage Google Cloud technologies. With a thorough understanding of cloud architecture and Google Cloud Platform, this individual can design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives."
+  },
+  {
+    "name": "Google Cloud Certified - Professional Data Engineer",
+    "url": "https://cloud.google.com/certification/data-engineer",
+    "description": "A Professional Data Engineer enables data-driven decision making by collecting, transforming, and visualizing data. The data engineer designs, builds, maintains, and troubleshoots data processing systems with a particular emphasis on the security, reliability, fault-tolerance, scalability, fidelity, and efficiency of such systems."
+  },
+  {
+    "name": "Google Cloud Certified - Professional Cloud Developer",
+    "url": "https://cloud.google.com/certification/cloud-developer",
+    "description": "A Professional Cloud Developer builds scalable and highly available applications using Google-recommended practices and tools that leverage fully managed services. This individual has experience with next-generation databases, runtime environments, and developer tools. They also have proficiency with at least one general-purpose programming language and are skilled at producing meaningful metrics and logs to debug and trace code."
+  },
+  {
+    "name": "Google Cloud Certified - Professional Collaboration Engineer",
+    "url": "https://cloud.google.com/certification/collaboration-engineer",
+    "description": "A Professional Collaboration Engineer transforms business objectives into tangible configurations, policies, and security practices as they relate to users, content, and integrations. Collaboration Engineers leverage their understanding of the entire Google Workspace and the ability to integrate with and apply configurations to third-party tools, user identity management, and compliance systems."
+  },
+  {
+    "name": "Google Cloud Certified - Professional Machine Learning Engineer",
+    "url": "https://cloud.google.com/certification/machine-learning-engineer",
+    "description": "A Professional Machine Learning Engineer designs, builds, and productionizes ML models to solve business challenges using Google Cloud technologies and knowledge of proven ML models and techniques. The ML Engineer is proficient in all aspects of model architecture, data pipeline interaction, and metrics interpretation and can leverage both TensorFlow and scikit-learn."
+  }
+]

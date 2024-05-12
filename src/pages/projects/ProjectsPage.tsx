@@ -1,10 +1,10 @@
-import Container from "react-bootstrap/Container";
-
 const ProjectsPage = () => {
   return (
-    <Container className="p-0" fluid>
-      <h2>Projects page</h2>
-    </Container>
+    <section className="resume-section" id="project-documentation">
+      <div className="resume-section-content">
+        <h2>My Projects page</h2>
+      </div>
+    </section>
   );
 };
 
