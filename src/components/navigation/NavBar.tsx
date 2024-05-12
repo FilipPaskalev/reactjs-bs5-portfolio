@@ -73,9 +73,9 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#awards">
+            <Link className="nav-link" to="/awards">
               Awards
-            </a>
+            </Link>
           </li>
           <hr className="m-0 px-2 text-light" />
           <li className="nav-item" id="about-this-project-link">

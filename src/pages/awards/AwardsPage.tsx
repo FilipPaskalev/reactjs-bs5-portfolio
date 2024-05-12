@@ -4,29 +4,28 @@ import { FaTrophy } from "react-icons/fa6";
 import { FaMedal } from "react-icons/fa6";
 import { GrAchievement } from "react-icons/gr";
 
-const AwardsSection = () => {
+import AWARDS from "../../public/data/awards.json";
+
+const AwardsPage = () => {
   return (
     <section className="resume-section" id="awards">
       <div className="resume-section-content">
-        <h2 className="mb-5">Awards & Certifications</h2>
-        <ul className="fa-ul mb-0">
+        <h2 className="mb-5">Awards</h2>
+        <ul className="fa-ul mb-5">
           <li>
             <span className="fa-li">
-              {/* <i className="fas fa-trophy text-warning"></i> */}
               <FaAward className="text-warning" />
             </span>
             Google Analytics Certified Developer
           </li>
           <li>
             <span className="fa-li">
-              {/* <i className="fas fa-trophy text-warning"></i> */}
               <FaTrophy className="text-warning" />
             </span>
             Mobile Web Specialist - Google Certification
           </li>
           <li>
             <span className="fa-li">
-              {/* <i className="fas fa-trophy text-warning"></i> */}
               <FaMedal className="text-warning" />
             </span>
             1<sup>st</sup>
@@ -35,7 +34,6 @@ const AwardsSection = () => {
           </li>
           <li>
             <span className="fa-li">
-              {/* <i className="fas fa-trophy text-warning"></i> */}
               <GrAchievement className="text-warning" />
             </span>
             1<sup>st</sup>
@@ -44,7 +42,7 @@ const AwardsSection = () => {
           </li>
           <li>
             <span className="fa-li">
-              <i className="fas fa-trophy text-warning"></i>
+              <FaTrophy className="text-warning" />
             </span>
             2<sup>nd</sup>
             Place - University of Colorado Boulder - Emerging Tech Competition
@@ -52,17 +50,32 @@ const AwardsSection = () => {
           </li>
           <li>
             <span className="fa-li">
-              <i className="fas fa-trophy text-warning"></i>
+              <FaTrophy className="text-warning" />
             </span>
             1<sup>st</sup>
             Place - James Buchanan High School - Hackathon 2006
           </li>
           <li>
             <span className="fa-li">
-              <i className="fas fa-trophy text-warning"></i>
+              <FaTrophy className="text-warning" />
             </span>
             3<sup>rd</sup>
             Place - James Buchanan High School - Hackathon 2005
+          </li>
+        </ul>
+        <h2 className="mb-5">Certifications</h2>
+        <ul className="fa-ul mb-0">
+          <li>
+            <span className="fa-li">
+              <FaAward className="text-warning" />
+            </span>
+            Google Analytics Certified Developer
+          </li>
+          <li>
+            <span className="fa-li">
+              <FaTrophy className="text-warning" />
+            </span>
+            Mobile Web Specialist - Google Certification
           </li>
         </ul>
       </div>
@@ -70,4 +83,4 @@ const AwardsSection = () => {
   );
 };
 
-export default AwardsSection;
+export default AwardsPage;

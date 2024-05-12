@@ -17,6 +17,7 @@ import ExperiencePage from "./pages/experience/ExperiencePage";
 import EducationPage from "./pages/education/EducationPage";
 import MySkillsPage from "./pages/skills/MySkillsPage";
 import InterestsPage from "./pages/interests/InterestsPage";
+import AwardsPage from "./pages/awards/AwardsPage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/education" element={<EducationPage />} />
         <Route path="/my-skills" element={<MySkillsPage />} />
         <Route path="/interests" element={<InterestsPage />} />
+        <Route path="/awards" element={<AwardsPage />} />
       </Routes>
     </>
   );
