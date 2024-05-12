@@ -1,35 +1,37 @@
 // Utils, Data, Assets
 import USER_DATA from "../../data/user.json";
-import AVATAR_HI from "../../assets/avatar-hi.png";
-
+import AVATAR from "../../assets/avatar-hi.png";
 // React Bootstrap
 import Container from "react-bootstrap/Container";
-
 // icons
 import { FaTelegram, FaWhatsapp, FaViber } from "react-icons/fa";
+import { Navbar } from "react-bootstrap";
 
 // TODO: REFACTOR - replace components with React Bootstrap components for better readability
 
 const NavBar = () => {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+    <Navbar
+      expand="lg"
+      variant="dark"
+      bg="primary"
+      fixed="top"
       id="sideNav"
+      // className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      // id="sideNav"
     >
-      <a className="navbar-brand" href="#page-top">
-        <span className="d-block d-lg-none">
-          <b>
-            {USER_DATA.firstName} {USER_DATA.lastName}
-          </b>
-        </span>
+      <Navbar.Brand href="#page-top">
+        <b className="d-block d-lg-none">
+          {USER_DATA.firstName} {USER_DATA.lastName}
+        </b>
         <Container className="d-none d-lg-block">
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src={AVATAR_HI}
+            src={AVATAR}
             alt="profile avatar"
           />
         </Container>
-      </a>
+      </Navbar.Brand>
       <a
         className="navbar-toggler"
         type="button"
@@ -113,7 +115,7 @@ const NavBar = () => {
           </Container>
         </ul>
       </div>
-    </nav>
+    </Navbar>
   );
 };
 
