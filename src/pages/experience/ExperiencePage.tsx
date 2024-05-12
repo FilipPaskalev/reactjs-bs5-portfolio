@@ -1,9 +1,5 @@
-import Container from "react-bootstrap/Container";
-
 import EXPERIENCE_DATA from "../../data/experience.json";
 import ExperienceCard from "../../components/experienceCard/experienceCard";
-
-type ExperiencePageProps = {};
 
 const ExperiencePage = () => {
   return (

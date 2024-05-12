@@ -26,5 +26,37 @@
     "grade": "GPA: 3.56",
     "startDate": "August 2002",
     "endDate": "May 2006"
+  },
+  {
+    "institution": {
+      "name": "University of Colorado Boulder",
+      "website": "https://www.colorado.edu/"
+    },
+    "degree": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science - Web Development Track",
+    "description": [
+      "Here is some information about my education.",
+      "And my degree.",
+      "And my field of study."
+    ],
+    "grade": "GPA: 3.23",
+    "startDate": "August 2006",
+    "endDate": "May 2010"
+  },
+  {
+    "institution": {
+      "name": "University of Colorado Boulder",
+      "website": "https://www.colorado.edu/"
+    },
+    "degree": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science - Web Development Track",
+    "description": [
+      "Here is some information about my education.",
+      "And my degree.",
+      "And my field of study."
+    ],
+    "grade": "GPA: 3.23",
+    "startDate": "August 2006",
+    "endDate": "May 2010"
   }
 ]

@@ -14,6 +14,7 @@ import "./scss/styles.scss";
 // Pages
 import HomePage from "./pages/home/HomePage";
 import ExperiencePage from "./pages/experience/ExperiencePage";
+import EducationPage from "./pages/education/EducationPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/experience" element={<ExperiencePage />} />
+        <Route path="/education" element={<EducationPage />} />
       </Routes>
     </>
   );
