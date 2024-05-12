@@ -13,12 +13,15 @@ import { faYarn } from "@fortawesome/free-brands-svg-icons/faYarn";
 import { faJava } from "@fortawesome/free-brands-svg-icons/faJava";
 import { faNpm } from "@fortawesome/free-brands-svg-icons/faNpm";
 import { faBootstrap } from "@fortawesome/free-brands-svg-icons/faBootstrap";
+import { FaCheck } from "react-icons/fa";
 
 // TODO: Add more icons for the skills section
 // TODO: wrap icons in a container with a tooltip and a title, also add <a> tag to the container and relevant href links
 // TODO: Add animations to the icons on hover
 // TODO: add icons in row and cols for responsive design, instead of a  ul list
 // TODO: Add icons for the workflow section skills and links to relevant projects from the portfolio
+
+import WORKFLOW from "../../../public/data/workflow.json";
 
 const SkillsSection = () => {
   return (
@@ -68,32 +71,14 @@ const SkillsSection = () => {
           </li>
         </ul>
         <div className="subheading mb-3">Workflow</div>
-        <ul className="fa-ul mb-0">
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            Mobile-First, Responsive Design
-          </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            Cross Browser Testing & Debugging
-          </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            Cross Functional Teams
-          </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            Agile Development & Scrum
-          </li>
-        </ul>
+        <section className="fa-ul mb-0">
+          {WORKFLOW.map((item, index) => (
+            <article key={index}>
+              <FaCheck className="text-primary" />
+              {` ${item}`}
+            </article>
+          ))}
+        </section>
       </div>
     </section>
   );
