@@ -10,12 +10,16 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 // Overriding Bootstrap styles with custom styles
 import "./scss/styles.scss";
+import AboutProjectPage from "./pages/aboutProject/AboutProjectPage";
+import AboutMePage from "./pages/aboutMe/aboutMePage";
+import ExperiencePage from "./pages/experience/ExperiencePage";
 
 function App() {
   return (
     <>
       <NavBar />
-      <HomePage />
+      <AboutMePage />
+      <ExperiencePage />
     </>
   );
 }
