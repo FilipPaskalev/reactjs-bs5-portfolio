@@ -1,9 +1,5 @@
 // Font Awesome Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCss3Alt } from "@fortawesome/free-brands-svg-icons/faCss3Alt";
-import { faHtml5 } from "@fortawesome/free-brands-svg-icons/faHtml5";
-import { faSquareJs } from "@fortawesome/free-brands-svg-icons/faSquareJs";
-import { faNodeJs } from "@fortawesome/free-brands-svg-icons/faNodeJs";
 import { faReact } from "@fortawesome/free-brands-svg-icons/faReact";
 import { faMarkdown } from "@fortawesome/free-brands-svg-icons/faMarkdown";
 import { faSass } from "@fortawesome/free-brands-svg-icons/faSass";
@@ -14,6 +10,16 @@ import { faJava } from "@fortawesome/free-brands-svg-icons/faJava";
 import { faNpm } from "@fortawesome/free-brands-svg-icons/faNpm";
 import { faBootstrap } from "@fortawesome/free-brands-svg-icons/faBootstrap";
 import { FaCheck } from "react-icons/fa";
+
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaSquareJs,
+  FaNodeJs,
+  FaReact,
+  FaMarkdown,
+} from "react-icons/fa6";
+import { SiReactrouter } from "react-icons/si";
 
 // TODO: Add more icons for the skills section
 // TODO: wrap icons in a container with a tooltip and a title, also add <a> tag to the container and relevant href links
@@ -30,23 +36,24 @@ const MySkillsPage = () => {
         <h2 className="mb-5">Skills</h2>
         <div className="subheading mb-3">Programming Languages & Tools</div>
         <ul className="list-inline dev-icons">
+          {/* TODO: Add react-icons logo */}
           <li className="list-inline-item">
-            <FontAwesomeIcon icon={faHtml5} />
+            <FaHtml5 />
           </li>
           <li className="list-inline-item">
-            <FontAwesomeIcon icon={faCss3Alt} />
+            <FaCss3Alt />
           </li>
           <li className="list-inline-item">
-            <FontAwesomeIcon icon={faSquareJs} />
+            <FaSquareJs />
           </li>
           <li className="list-inline-item">
-            <FontAwesomeIcon icon={faNodeJs} />
+            <FaNodeJs />
           </li>
           <li className="list-inline-item">
-            <FontAwesomeIcon icon={faReact} />
+            <FaReact />
           </li>
           <li className="list-inline-item">
-            <FontAwesomeIcon icon={faMarkdown} />
+            <FaMarkdown />
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faSass} />
@@ -68,6 +75,9 @@ const MySkillsPage = () => {
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faBootstrap} />
+          </li>
+          <li className="list-inline-item">
+            <SiReactrouter />
           </li>
         </ul>
         <div className="subheading mb-3">Workflow</div>
