@@ -1,27 +1,62 @@
 [
   {
-    "place": "1stPlace",
-    "event": "University of Colorado Boulder - Emerging Tech Competition 2009",
+    "ranking": {
+      "position": 1,
+      "suffix": "st"
+    },
+    "event": {
+      "location": "University of Colorado Boulder",
+      "name": "Emerging Tech Competition",
+      "date": "April 2006"
+    },
     "description": "Developed a web application that allowed users to create and share custom maps with their friends. The application was built using the Google Maps API and PHP."
   },
   {
-    "place": "1stPlace",
-    "event": "University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)",
+    "ranking": {
+      "position": 2,
+      "suffix": "nd"
+    },
+    "event": {
+      "location": "University of Colorado Boulder",
+      "name": "Emerging Tech Competition",
+      "date": "April 2006"
+    },
     "description": "Designed a web application that allowed users to create and share custom maps with their friends. The application was built using the Google Maps API and PHP."
   },
   {
-    "place": "2ndPlace",
-    "event": "University of Colorado Boulder - Emerging Tech Competition 2008",
+    "ranking": {
+      "position": 1,
+      "suffix": "st"
+    },
+    "event": {
+      "location": "University of Colorado Boulder",
+      "name": "Emerging Tech Competition",
+      "date": "April 2006"
+    },
     "description": "Developed a web application that allowed users to create and share custom maps with their friends. The application was built using the Google Maps API and PHP."
   },
   {
-    "place": "1stPlace",
-    "event": "James Buchanan High School - Hackathon 2006",
+    "ranking": {
+      "position": 3,
+      "suffix": "rd"
+    },
+    "event": {
+      "location": "University of Colorado Boulder",
+      "name": "Emerging Tech Competition",
+      "date": "April 2006"
+    },
     "description": "Developed a web application that allowed users to create and share custom maps with their friends. The application was built using the Google Maps API and PHP."
   },
   {
-    "place": "3rdPlace",
-    "event": "James Buchanan High School - Hackathon 2005",
+    "ranking": {
+      "position": 3,
+      "suffix": "rd"
+    },
+    "event": {
+      "location": "University of Colorado Boulder",
+      "name": "Emerging Tech Competition",
+      "date": "April 2006"
+    },
     "description": "Developed a web application that allowed users to create and share custom maps with their friends. The application was built using the Google Maps API and PHP."
   }
 ]
