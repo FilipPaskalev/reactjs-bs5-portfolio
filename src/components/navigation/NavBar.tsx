@@ -6,9 +6,8 @@ import AVATAR_HI from "../../assets/avatar-hi.png";
 import Container from "react-bootstrap/Container";
 
 // icons
-import { FaTelegram } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa6";
-import { FaViber } from "react-icons/fa6";
+import { FaTelegram, FaWhatsapp, FaViber } from "react-icons/fa";
+
 // TODO: REFACTOR - replace components with React Bootstrap components for better readability
 
 const NavBar = () => {
@@ -80,7 +79,7 @@ const NavBar = () => {
               Documentation
             </a>
           </li>
-          <div className="social-icons">
+          <Container className="social-icons">
             <a
               data-bs-toggle="tooltip"
               data-bs-placement="top"
@@ -111,7 +110,7 @@ const NavBar = () => {
             >
               <FaViber />
             </a>
-          </div>
+          </Container>
         </ul>
       </div>
     </nav>
