@@ -23,7 +23,7 @@ import { FaCheck } from "react-icons/fa";
 
 import WORKFLOW from "../../data/workflow.json";
 
-const MySkills = () => {
+const MySkillsPage = () => {
   return (
     <section className="resume-section" id="skills">
       <div className="resume-section-content">
@@ -84,4 +84,4 @@ const MySkills = () => {
   );
 };
 
-export default MySkills;
+export default MySkillsPage;
