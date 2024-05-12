@@ -2,7 +2,11 @@
   {
     "institution": {
       "name": "University of Colorado Boulder",
-      "website": "https://www.colorado.edu/"
+      "website": "https://www.colorado.edu/",
+      "location": {
+        "city": "Boulder",
+        "country": "United States"
+      }
     },
     "degree": "Bachelor of Science",
     "fieldOfStudy": "Computer Science - Web Development Track",
@@ -18,7 +22,11 @@
   {
     "institution": {
       "name": "James Buchanan High School",
-      "website": "https://www.chambersburg.k12.pa.us/"
+      "website": "https://www.chambersburg.k12.pa.us/",
+      "location": {
+        "city": "Mercersburg",
+        "country": "United States"
+      }
     },
     "degree": "Technology Magnet Program",
     "fieldOfStudy": "Technology",
@@ -30,7 +38,11 @@
   {
     "institution": {
       "name": "University of Colorado Boulder",
-      "website": "https://www.colorado.edu/"
+      "website": "https://www.colorado.edu/",
+      "location": {
+        "city": "Boulder",
+        "country": "United States"
+      }
     },
     "degree": "Bachelor of Science",
     "fieldOfStudy": "Computer Science - Web Development Track",
@@ -46,7 +58,11 @@
   {
     "institution": {
       "name": "University of Colorado Boulder",
-      "website": "https://www.colorado.edu/"
+      "website": "https://www.colorado.edu/",
+      "location": {
+        "city": "Boulder",
+        "country": "United States"
+      }
     },
     "degree": "Bachelor of Science",
     "fieldOfStudy": "Computer Science - Web Development Track",

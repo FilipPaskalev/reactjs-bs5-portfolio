@@ -9,6 +9,10 @@ type Props = {
   institution: {
     name: string;
     website: string;
+    location: {
+      city: string;
+      country: string;
+    };
   };
   degree: string;
   fieldOfStudy: string;
@@ -31,20 +35,20 @@ const EducationCard = ({
     <section className="d-flex flex-column flex-md-row justify-content-between mb-5">
       <hgroup className="flex-grow-1">
         <h3 className="mb-0">
-          {/* <MdWhereToVote />  */}
-          {institution.name}
-          <a href={institution.website} target="_blank">
-            <CiLink />
+          <a
+            href={institution.website}
+            target="_blank"
+            className="text-decoration-none text-dark"
+          >
+            {institution.name}
+            <CiLink className="text-primary" />
           </a>
+          <p className="fs-5">
+            {institution.location.city}, {institution.location.country}
+          </p>
         </h3>
-        <h4 className="mb-1 text-primary">
-          {/* <GiDiploma />  */}
-          {degree}
-        </h4>
-        <h6 className="mb-4">
-          {/* <FiTarget className="mb-1" />  */}
-          {fieldOfStudy}
-        </h6>
+        <h4 className="mb-0 text-primary">{degree}</h4>
+        <h5 className="mb-3 fs-5">{fieldOfStudy}</h5>
         {description.map((desc, index) => (
           <p key={index} className="my-0">
             {desc}
