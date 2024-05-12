@@ -15,6 +15,7 @@ import "./scss/styles.scss";
 import HomePage from "./pages/home/HomePage";
 import ExperiencePage from "./pages/experience/ExperiencePage";
 import EducationPage from "./pages/education/EducationPage";
+import MySkills from "./pages/skills/MySkills";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/experience" element={<ExperiencePage />} />
         <Route path="/education" element={<EducationPage />} />
+        <Route path="/my-skills" element={<MySkills />} />
       </Routes>
     </>
   );
