@@ -1,7 +1,5 @@
 // Font Awesome Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
-import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons/faFacebookF";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons/faDiscord";
@@ -11,7 +9,6 @@ import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
 
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
-import * as REACT_ICON from "react-icons";
 
 // DATA
 import DATA from "../../../public/data/user.json";
@@ -81,7 +78,7 @@ const AboutMeSection = () => {
           >
             <FaGithub />
           </a>
-          <a
+          {/* <a
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             title={DATA.social.twitter.title}
@@ -90,8 +87,8 @@ const AboutMeSection = () => {
             target="_blank"
           >
             <FontAwesomeIcon icon={faXTwitter} />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             title={DATA.social.facebook.title}
@@ -100,7 +97,7 @@ const AboutMeSection = () => {
             target="_blank"
           >
             <FontAwesomeIcon icon={faFacebookF} />
-          </a>
+          </a> */}
           <a
             data-bs-toggle="tooltip"
             data-bs-placement="top"
@@ -121,7 +118,7 @@ const AboutMeSection = () => {
           >
             <FontAwesomeIcon icon={faSlack} />
           </a>
-          <a
+          {/* <a
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             title={"TODO faWhatsapp"}
@@ -130,8 +127,8 @@ const AboutMeSection = () => {
             target="_blank"
           >
             <FontAwesomeIcon icon={faWhatsapp} />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             title={"TODO faTelegram"}
@@ -140,8 +137,8 @@ const AboutMeSection = () => {
             target="_blank"
           >
             <FontAwesomeIcon icon={faTelegram} />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             title={"TODO faFacebookMessenger"}
@@ -150,8 +147,8 @@ const AboutMeSection = () => {
             target="_blank"
           >
             <FontAwesomeIcon icon={faFacebookMessenger} />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             title={"TODO faViber"}
@@ -160,7 +157,7 @@ const AboutMeSection = () => {
             target="_blank"
           >
             <FontAwesomeIcon icon={faViber} />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
