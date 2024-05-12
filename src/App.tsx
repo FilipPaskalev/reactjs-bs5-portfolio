@@ -1,8 +1,8 @@
 // Components
 import NavBar from "./components/navigation/NavBar";
 
-// Pages
-import HomePage from "./pages/home/HomePage";
+// Router
+import { Route, Routes } from "react-router";
 
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,16 +10,19 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 // Overriding Bootstrap styles with custom styles
 import "./scss/styles.scss";
-import AboutProjectPage from "./pages/aboutProject/AboutProjectPage";
-import AboutMePage from "./pages/aboutMe/aboutMePage";
+
+// Pages
+import HomePage from "./pages/home/HomePage";
 import ExperiencePage from "./pages/experience/ExperiencePage";
 
 function App() {
   return (
     <>
       <NavBar />
-      <AboutMePage />
-      <ExperiencePage />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/experience" element={<ExperiencePage />} />
+      </Routes>
     </>
   );
 }

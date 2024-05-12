@@ -1,17 +1,14 @@
-// Assets
-import AVATAR_HI from "/public/assets/avatar-hi.png";
+// Utils, Data, Assets
+import USER_DATA from "../../data/user.json";
+import AVATAR_HI from "../../assets/avatar-hi.png";
 
-// Utils & data
-import USER_DATA from "../../../public/data/user.json";
-
-// FontAwesome & icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons/faWhatsapp";
-import { faViber } from "@fortawesome/free-brands-svg-icons/faViber";
-import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
+// React Bootstrap
 import Container from "react-bootstrap/Container";
-import { Button } from "react-bootstrap";
 
+// icons
+import { FaTelegram } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
+import { FaViber } from "react-icons/fa6";
 // TODO: REFACTOR - replace components with React Bootstrap components for better readability
 
 const NavBar = () => {
@@ -34,7 +31,7 @@ const NavBar = () => {
           />
         </Container>
       </a>
-      <Button
+      <a
         className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -44,7 +41,7 @@ const NavBar = () => {
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
-      </Button>
+      </a>
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav">
           <li className="nav-item">
@@ -87,32 +84,32 @@ const NavBar = () => {
             <a
               data-bs-toggle="tooltip"
               data-bs-placement="top"
-              title={"TODO faTelegram"}
               className="social-icon"
-              href={"TODO faTelegram"}
+              title={USER_DATA.social.telegram.title}
+              href={USER_DATA.social.telegram.href}
               target="_blank"
             >
-              <FontAwesomeIcon icon={faTelegram} />
+              <FaTelegram />
             </a>
             <a
               data-bs-toggle="tooltip"
               data-bs-placement="top"
-              title={"TODO faViber"}
               className="social-icon"
-              href={"TODO faViber"}
+              title={USER_DATA.social.whatsapp.title}
+              href={USER_DATA.social.whatsapp.href}
               target="_blank"
             >
-              <FontAwesomeIcon icon={faViber} />
+              <FaWhatsapp />
             </a>
             <a
               data-bs-toggle="tooltip"
               data-bs-placement="top"
-              title={"TODO faWhatsapp"}
               className="social-icon"
-              href={"TODO faWhatsapp"}
+              title={USER_DATA.social.viber.title}
+              href={USER_DATA.social.viber.href}
               target="_blank"
             >
-              <FontAwesomeIcon icon={faWhatsapp} />
+              <FaViber />
             </a>
           </div>
         </ul>

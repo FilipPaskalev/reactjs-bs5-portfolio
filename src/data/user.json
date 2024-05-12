@@ -1,0 +1,34 @@
+{
+  "firstName": "Filip",
+  "lastName": "Paskalev",
+  "phoneNumber": "447882123456",
+  "email": "paskalevfilip@gmail.com",
+  "address": {
+    "street": "123 Main Street",
+    "city": "London",
+    "country": "UK",
+    "postCode": "W1A 1AA"
+  },
+  "social": {
+    "linkedin": {
+      "href": "https://www.linkedin.com/in/",
+      "title": "Add me at LinkedIn"
+    },
+    "github": {
+      "href": "https://github.com/",
+      "title": "Visit my GitHub page"
+    },
+    "telegram": {
+      "href": "https://t.me/paskalevFilip",
+      "title": "Chat with me at Telegram"
+    },
+    "viber": {
+      "href": "viber://chat?number=447882123456",
+      "title": "Chat with me at Viber"
+    },
+    "whatsapp": {
+      "href": "https://wa.me/paskalevFilip",
+      "title": "Chat with me at WhatsApp"
+    }
+  }
+}
