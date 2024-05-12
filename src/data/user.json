@@ -33,6 +33,14 @@
     "whatsapp": {
       "href": "https://wa.me/paskalevFilip",
       "title": "Chat with me at WhatsApp"
+    },
+    "slack": {
+      "href": "https://slack.com/",
+      "title": "Chat with me at Slack"
+    },
+    "discord": {
+      "href": "https://discord.com/",
+      "title": "Chat with me at Discord"
     }
   }
 }

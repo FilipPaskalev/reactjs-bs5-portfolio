@@ -6,6 +6,8 @@ import Container from "react-bootstrap/Container";
 // icons
 import { FaTelegram, FaWhatsapp, FaViber } from "react-icons/fa";
 import { Navbar } from "react-bootstrap";
+// React Router
+import { Link } from "react-router-dom";
 
 // TODO: REFACTOR - replace components with React Bootstrap components for better readability
 
@@ -46,14 +48,14 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="#about-me">
+            <Link className="nav-link" to="/">
               About Me
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#experience">
+            <Link className="nav-link" to="/experience">
               Experience
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#education">
