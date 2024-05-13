@@ -31,7 +31,6 @@ import WORKFLOW from '../../data/workflow.json'
 const MySkillsPage = () => {
   const languages = [
     <FaHtml5 />,
-    // <FaCss3Alt />,
     <SiCss3 />,
     <SiJavascript />,
     <SiTypescript />,
