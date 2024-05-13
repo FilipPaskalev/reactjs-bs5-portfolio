@@ -11,6 +11,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 // Overriding Bootstrap styles with custom styles
 import './scss/styles.scss'
 
+// Enums
+import EPagesPaths from './enum/EPagesPaths'
+
 // Pages
 import HomePage from './pages/home/HomePage'
 import ExperiencePage from './pages/experience/ExperiencePage'
@@ -22,9 +25,7 @@ import DocumentationPage from './pages/documentation/DocumentationPage'
 import ProjectsPage from './pages/projects/ProjectsPage'
 import CertificationsPage from './pages/certifications/CertificationsPage'
 import PageNotFoundPage from './pages/pageNotFound/PageNotFoundPage'
-
-// Enums
-import EPagesPaths from './enum/EPagesPaths'
+import ComingSoonPage from './pages/comingSoon/ComingSoonPage'
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           path={EPagesPaths.PAGE_NOT_FOUND}
           element={<PageNotFoundPage />}
         />
+        <Route path={EPagesPaths.COMING_SOON} element={<ComingSoonPage />} />
       </Routes>
     </>
   )
