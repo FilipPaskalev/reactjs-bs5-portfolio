@@ -250,3 +250,31 @@ THE SOFTWARE.
 
 <!-- TODO -->
 Copyright TODO: ADD TEXT. Code released under the [MIT](TODO add link) license.
+
+
+<!-- TODO refactor and reorder everything what is after this comment -->
+
+## Prettier
+
+```json
+{
+  "singleQuote": true,
+  "semi": false,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "jsxSingleQuote": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "printWidth": 80
+}
+```
+
+### Prettier Configuration
+- `"singleQuote"`: true: Use single quotes instead of double quotes.
+- "semi": false: Don't use semicolons at the end of statements.
+- `"tabWidth"`: 2: Use 2 spaces for indentation.
+- `"trailingComma"`: "none": No trailing commas.
+- `"jsxSingleQuote"`: true: Use single quotes for JSX attributes.
+- `"jsxBracketSameLine"`: false: Put the > of a multi-line JSX element at the end of the last line instead of being alone on the next line.
+- `"arrowParens"`: "avoid": Omit parentheses around a single parameter in arrow functions.
+- `"printWidth"`: 80: Wrap lines at 80 characters.

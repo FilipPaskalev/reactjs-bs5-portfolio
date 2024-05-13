@@ -1,5 +1,5 @@
 // Components
-import NavBar from "./components/navigation/NavBar";
+import NavigationBar from "./components/navigationBar/NavigationBar";
 
 // Router
 import { Route, Routes } from "react-router";
@@ -21,21 +21,35 @@ import AwardsPage from "./pages/awards/AwardsPage";
 import DocumentationPage from "./pages/documentation/DocumentationPage";
 import ProjectsPage from "./pages/projects/ProjectsPage";
 import CertificationsPage from "./pages/certifications/CertificationsPage";
+import PageNotFoundPage from "./pages/pageNotFound/PageNotFoundPage";
+
+// Enums
+import EPagesPaths from "./enum/EPagesPaths";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <NavigationBar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/experience" element={<ExperiencePage />} />
-        <Route path="/education" element={<EducationPage />} />
-        <Route path="/my-skills" element={<MySkillsPage />} />
-        <Route path="/interests" element={<InterestsPage />} />
-        <Route path="/awards" element={<AwardsPage />} />
-        <Route path="/project-documentation" element={<DocumentationPage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/certifications" element={<CertificationsPage />} />
+        <Route path={EPagesPaths.HOME} element={<HomePage />} />
+        <Route path={EPagesPaths.EXPERIENCE} element={<ExperiencePage />} />
+        <Route path={EPagesPaths.EDUCATION} element={<EducationPage />} />
+        <Route path={EPagesPaths.MY_SKILLS} element={<MySkillsPage />} />
+        <Route path={EPagesPaths.INTERESTS} element={<InterestsPage />} />
+        <Route path={EPagesPaths.AWARDS} element={<AwardsPage />} />
+        <Route
+          path={EPagesPaths.DOCUMENTATION}
+          element={<DocumentationPage />}
+        />
+        <Route path={EPagesPaths.PROJECTS} element={<ProjectsPage />} />
+        <Route
+          path={EPagesPaths.CERTIFICATIONS}
+          element={<CertificationsPage />}
+        />
+        <Route
+          path={EPagesPaths.PAGE_NOT_FOUND}
+          element={<PageNotFoundPage />}
+        />
       </Routes>
     </>
   );

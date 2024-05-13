@@ -8,10 +8,11 @@ import { FaTelegram, FaWhatsapp, FaViber } from "react-icons/fa";
 import { Navbar } from "react-bootstrap";
 // React Router
 import { Link } from "react-router-dom";
+import EPagesPaths from "../../enum/EPagesPaths";
 
 // TODO: REFACTOR - replace components with React Bootstrap components for better readability
 
-const NavBar = () => {
+const NavigationBar = () => {
   return (
     <Navbar
       expand="lg"
@@ -22,7 +23,7 @@ const NavBar = () => {
       // className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
       // id="sideNav"
     >
-      <Navbar.Brand href="#page-top">
+      <Navbar.Brand href={EPagesPaths.HOME}>
         <b className="d-block d-lg-none">
           {USER_DATA.firstName} {USER_DATA.lastName}
         </b>
@@ -48,42 +49,42 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className="nav-link" to="/">
+            <Link className="nav-link" to={EPagesPaths.HOME}>
               About Me
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/experience">
+            <Link className="nav-link" to={EPagesPaths.EXPERIENCE}>
               Experience
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/education">
+            <Link className="nav-link" to={EPagesPaths.EDUCATION}>
               Education
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/my-skills">
+            <Link className="nav-link" to={EPagesPaths.MY_SKILLS}>
               My Skills
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/interests">
+            <Link className="nav-link" to={EPagesPaths.INTERESTS}>
               Interests
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/awards">
+            <Link className="nav-link" to={EPagesPaths.AWARDS}>
               Awards
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/certifications">
+            <Link className="nav-link" to={EPagesPaths.CERTIFICATIONS}>
               Certifications
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/projects">
+            <Link className="nav-link" to={EPagesPaths.PROJECTS}>
               Projects
             </Link>
           </li>
@@ -91,7 +92,7 @@ const NavBar = () => {
           <hr className="m-0 px-2 text-light" />
 
           <li className="nav-item" id="about-this-project-link">
-            <Link className="nav-link" to="/project-documentation">
+            <Link className="nav-link" to={EPagesPaths.DOCUMENTATION}>
               Documentation
             </Link>
           </li>
@@ -133,4 +134,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavigationBar;
