@@ -1,6 +1,6 @@
 // Utils, Data, Assets
 import USER_DATA from '../../data/user.json'
-import AVATAR from '../../assets/avatar-hi.png'
+import AVATAR from '../../assets/png/avatar-hi.png'
 // React Bootstrap
 import Container from 'react-bootstrap/Container'
 // icons

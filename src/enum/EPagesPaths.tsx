@@ -8,7 +8,8 @@ enum EPagesPaths {
   INTERESTS = '/interests',
   MY_SKILLS = '/my-skills',
   PROJECTS = '/projects',
-  PAGE_NOT_FOUND = '*'
+  PAGE_NOT_FOUND = '*',
+  COMING_SOON = '/coming-soon'
 }
 
 export default EPagesPaths
