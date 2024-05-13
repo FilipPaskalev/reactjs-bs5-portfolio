@@ -23,11 +23,14 @@ const ExperienceCard = ({
   return (
     <article className='d-flex flex-column flex-md-row justify-content-between mb-5'>
       <div className='flex-grow-1'>
-        <h3 className='mb-0 text-primary'>{position}</h3>
+        <h3 className='mb-0'>{position}</h3>
         <h4 className='subheading mb-3'>
-          {company.name}{' '}
-          <a href={company.website} target='_blank'>
-            <CiLink />
+          <a
+            href={company.website}
+            target='_blank'
+            className='text-decoration-none text-muted'
+          >
+            {company.name} <CiLink className='text-primary' />
           </a>
         </h4>
         {description.map((desc, index) => (
