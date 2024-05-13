@@ -1,4 +1,4 @@
-import { Container, Row, Col, Alert } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 const PageNotFoundPage = () => {
   return (
