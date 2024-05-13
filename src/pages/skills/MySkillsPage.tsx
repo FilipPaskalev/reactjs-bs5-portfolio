@@ -6,17 +6,9 @@ import { faSquareGit } from '@fortawesome/free-brands-svg-icons/faSquareGit'
 import { faYarn } from '@fortawesome/free-brands-svg-icons/faYarn'
 import { faJava } from '@fortawesome/free-brands-svg-icons/faJava'
 import { faNpm } from '@fortawesome/free-brands-svg-icons/faNpm'
-import { faBootstrap } from '@fortawesome/free-brands-svg-icons/faBootstrap'
 import { FaCheck } from 'react-icons/fa'
 
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaSquareJs,
-  FaNodeJs,
-  FaReact,
-  FaMarkdown
-} from 'react-icons/fa6'
+import { FaHtml5, FaNodeJs, FaReact, FaMarkdown } from 'react-icons/fa6'
 import {
   SiReactrouter,
   SiTypescript,
