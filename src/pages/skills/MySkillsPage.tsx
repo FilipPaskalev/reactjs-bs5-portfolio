@@ -1,7 +1,5 @@
 // Font Awesome Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact } from '@fortawesome/free-brands-svg-icons/faReact'
-import { faMarkdown } from '@fortawesome/free-brands-svg-icons/faMarkdown'
 import { faSass } from '@fortawesome/free-brands-svg-icons/faSass'
 import { faLess } from '@fortawesome/free-brands-svg-icons/faLess'
 import { faSquareGit } from '@fortawesome/free-brands-svg-icons/faSquareGit'
@@ -19,7 +17,16 @@ import {
   FaReact,
   FaMarkdown
 } from 'react-icons/fa6'
-import { SiReactrouter } from 'react-icons/si'
+import {
+  SiReactrouter,
+  SiTypescript,
+  SiJavascript,
+  SiCss3,
+  SiAdobexd,
+  SiAsana,
+  SiBootstrap,
+  SiEclipseide
+} from 'react-icons/si'
 
 // TODO: Add more icons for the skills section
 // TODO: wrap icons in a container with a tooltip and a title, also add <a> tag to the container and relevant href links
@@ -30,65 +37,68 @@ import { SiReactrouter } from 'react-icons/si'
 import WORKFLOW from '../../data/workflow.json'
 
 const MySkillsPage = () => {
+  const languages = [
+    <FaHtml5 />,
+    // <FaCss3Alt />,
+    <SiCss3 />,
+    <SiJavascript />,
+    <SiTypescript />,
+    <FontAwesomeIcon icon={faJava} />
+  ]
+  const tools = [
+    <FaReact />,
+    <FaNodeJs />,
+    <FontAwesomeIcon icon={faSquareGit} />,
+    <FontAwesomeIcon icon={faYarn} />,
+    <FontAwesomeIcon icon={faNpm} />,
+    <FontAwesomeIcon icon={faSass} />,
+    <FaMarkdown />,
+    <SiReactrouter />,
+    <FontAwesomeIcon icon={faLess} />,
+    <SiBootstrap />,
+    <SiAdobexd />,
+    <SiAsana />,
+    <SiEclipseide />
+  ]
+
+  const renderWorkflow = () => {
+    return WORKFLOW.map((item, index) => (
+      <article key={index}>
+        <FaCheck className='text-primary' />
+        {` ${item}`}
+      </article>
+    ))
+  }
+
+  const renderMyStack = () => {
+    return languages.map((icon, index) => (
+      <li key={index} className='list-inline-item'>
+        {icon}
+      </li>
+    ))
+  }
+
+  const renderTools = () => {
+    return tools.map((icon, index) => (
+      <li key={index} className='list-inline-item'>
+        {icon}
+      </li>
+    ))
+  }
+
   return (
     <section className='resume-section' id='skills'>
       <div className='resume-section-content'>
         <h2 className='mb-5'>Skills</h2>
-        <div className='subheading mb-3'>Programming Languages & Tools</div>
-        <ul className='list-inline dev-icons'>
-          {/* TODO: Add react-icons logo */}
-          <li className='list-inline-item'>
-            <FaHtml5 />
-          </li>
-          <li className='list-inline-item'>
-            <FaCss3Alt />
-          </li>
-          <li className='list-inline-item'>
-            <FaSquareJs />
-          </li>
-          <li className='list-inline-item'>
-            <FaNodeJs />
-          </li>
-          <li className='list-inline-item'>
-            <FaReact />
-          </li>
-          <li className='list-inline-item'>
-            <FaMarkdown />
-          </li>
-          <li className='list-inline-item'>
-            <FontAwesomeIcon icon={faSass} />
-          </li>
-          <li className='list-inline-item'>
-            <FontAwesomeIcon icon={faLess} />
-          </li>
-          <li className='list-inline-item'>
-            <FontAwesomeIcon icon={faSquareGit} />
-          </li>
-          <li className='list-inline-item'>
-            <FontAwesomeIcon icon={faYarn} />
-          </li>
-          <li className='list-inline-item'>
-            <FontAwesomeIcon icon={faJava} />
-          </li>
-          <li className='list-inline-item'>
-            <FontAwesomeIcon icon={faNpm} />
-          </li>
-          <li className='list-inline-item'>
-            <FontAwesomeIcon icon={faBootstrap} />
-          </li>
-          <li className='list-inline-item'>
-            <SiReactrouter />
-          </li>
-        </ul>
-        <div className='subheading mb-3'>Workflow</div>
-        <section className='fa-ul mb-0'>
-          {WORKFLOW.map((item, index) => (
-            <article key={index}>
-              <FaCheck className='text-primary' />
-              {` ${item}`}
-            </article>
-          ))}
-        </section>
+
+        <h3 className='subheading mb-3'>Programming Languages</h3>
+        <ul className='list-inline dev-icons'>{renderMyStack()}</ul>
+
+        <h3 className='subheading mb-3'>Tools & Frameworks</h3>
+        <ul className='list-inline dev-icons'>{renderTools()}</ul>
+
+        <h3 className='subheading mb-3'>Workflow</h3>
+        <section className='fa-ul mb-0'>{renderWorkflow()}</section>
       </div>
     </section>
   )
