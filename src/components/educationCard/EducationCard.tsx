@@ -35,17 +35,17 @@ const EducationCard = ({
           <a
             href={institution.website}
             target='_blank'
-            className='text-decoration-none text-dark'
+            className='text-decoration-none text-dark mb-0'
           >
             {institution.name}
-            <CiLink className='text-primary' />
+            <CiLink className='text-primary mb-0' />
           </a>
-          <p className='fs-5'>
+          {/* <p className='fs-5 text-muted'>
             {institution.location.city}, {institution.location.country}
-          </p>
+          </p> */}
         </h3>
-        <h4 className='mb-0 text-primary'>{degree}</h4>
-        <h5 className='mb-3 fs-5'>{fieldOfStudy}</h5>
+        <h4 className='mb-0 text-dark'>{degree}</h4>
+        <h6 className='mb-3 fs-5 text-muted'>{fieldOfStudy}</h6>
         {description.map((desc, index) => (
           <p key={index} className='my-0'>
             {desc}
