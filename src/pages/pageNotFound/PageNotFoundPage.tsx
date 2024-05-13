@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
+import PAGE_NOT_FOUND_GIF from '../../assets/gif/page-not-found.gif'
 
 const PageNotFoundPage = () => {
   return (
@@ -11,7 +12,7 @@ const PageNotFoundPage = () => {
                 <h2>Page Not Found</h2>
                 <div className='text-center'>
                   <img
-                    src='https://media.giphy.com/media/8L0Pky6C83SzkzU55a/giphy.gif'
+                    src={PAGE_NOT_FOUND_GIF}
                     alt='404 GIF'
                     className='img-fluid'
                   />

@@ -43,7 +43,7 @@ const CountdownTimer = ({ targetDate }: CountdownProps) => {
   return (
     <div className='text-center mt-4'>
       <h3>Time Left</h3>
-      <p>
+      <p className='fs-5'>
         {timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes{' '}
         {timeLeft.seconds} seconds
       </p>
@@ -62,8 +62,10 @@ const ComingSoonPage = () => {
             <Col md={8}>
               <Card className='border-0'>
                 <Card.Body>
-                  <Card.Title className='text-center'>Coming Soon</Card.Title>
-                  <Card.Text className='text-center'>
+                  <Card.Title className='text-center fs-3'>
+                    Coming Soon
+                  </Card.Title>
+                  <Card.Text className='text-center fs-5'>
                     Under construction. Please excuse the mess.
                   </Card.Text>
                   <div className='text-center'>
