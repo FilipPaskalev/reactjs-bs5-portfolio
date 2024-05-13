@@ -1,7 +1,7 @@
-# Portfolio 
+# Portfolio
+
 <!-- TODO change project name -->
 <!-- TODO add three -->
-
 
 ## Setting up the project
 
@@ -17,15 +17,16 @@ cd portfolio-reactjs
 ```bash
 npm create vite@latest
 ```
+
 > [!NOTE]  
-> In version ```1.0.0``` the project is create at directory ```dev```.
+> In version `1.0.0` the project is create at directory `dev`.
 
 ### Install Dependencies
 
 Enter the directory of the NodeJs project:
 
-> [!WARNING] 
-> At this version ```1.0.0``` the project is at directory ```dev```.
+> [!WARNING]
+> At this version `1.0.0` the project is at directory `dev`.
 
 ```bash
 cd dev
@@ -44,6 +45,7 @@ npm install react-router-dom @types/react-router-dom
 ```
 
 #### Install Jest for Testing:
+
 ```
 npm install --save-dev jest @types/jest
 ```
@@ -64,14 +66,14 @@ npm install
 
 <!-- Add description that Bootstrap 5 breakpoint will be used in the project -->
 
-| Breakpoint | Size |
-|------------|------|
-| Extra Small | <576px |
+| Breakpoint  | Size    |
+| ----------- | ------- |
+| Extra Small | <576px  |
 | Small       | ≥576px  |
-| Medium     | ≥768px  |
-| Large      | ≥992px  |
-| X-Large    | ≥1200px |
-| XX-Large   | ≥1400px |
+| Medium      | ≥768px  |
+| Large       | ≥992px  |
+| X-Large     | ≥1200px |
+| XX-Large    | ≥1400px |
 
 <!-- TODO mansion the original theme -->
 
@@ -79,15 +81,15 @@ npm install
 
 ### Technologies
 
-| [React ```18.2.0```](https://react.dev/)
-| [Vite ```5.2.0```](https://vitejs.dev/)
-| [React Bootstrap ```2.10.2```](https://react-bootstrap.netlify.app/)
-| [React Router ```6.22.3```](https://reactrouter.com/)
-| [Bootstrap ```5.3.3```](https://getbootstrap.com/)
-| [Jest ```29.7.0```](https://jestjs.io/)
-| [TypeScript ```5.2.2```](https://www.typescriptlang.org/)
-| [Node.js ```20.12.2```](https://nodejs.org/en)
-| [Prettier ```3.2.5```](https://prettier.io/)
+| [React `18.2.0`](https://react.dev/)
+| [Vite `5.2.0`](https://vitejs.dev/)
+| [React Bootstrap `2.10.2`](https://react-bootstrap.netlify.app/)
+| [React Router `6.22.3`](https://reactrouter.com/)
+| [Bootstrap `5.3.3`](https://getbootstrap.com/)
+| [Jest `29.7.0`](https://jestjs.io/)
+| [TypeScript `5.2.2`](https://www.typescriptlang.org/)
+| [Node.js `20.12.2`](https://nodejs.org/en)
+| [Prettier `3.2.5`](https://prettier.io/)
 | [JavaScript](https://www.javascript.com/) |
 
 ### Markdown
@@ -143,7 +145,6 @@ npm install
 | Recourse
 | Recourse |
 
-
 ### Articles
 
 | [How to Create a Personal Portfolio Page [Step-by-Step]](https://blog.hubspot.com/website/html-projects-personal-portfolio)
@@ -162,17 +163,20 @@ npm install
 | Recourse |
 
 ### Graphical resources
+
 https://devicon.dev/
 https://github.com/react-icons/react-icons
 
 ## About
+
 <!-- TODO write something for about section-->
 
 ## Change log
 
 <!-- Add information what can be found in this section -->
 
-### Version 1.0.0 
+### Version 1.0.0
+
 - Initial version and release
 - Add TypeScript to the project
 - Add React Bootstrap to the project
@@ -183,10 +187,9 @@ https://github.com/react-icons/react-icons
 - Add semantic HTML
 - CSS files are separate for every component
 - Add header, sub header, footer section
-- Text can be rendered dynamically (received from JSON file) 
+- Text can be rendered dynamically (received from JSON file)
 - Add icons to the footer section dynamically ( received from JSON file)
 - Add tooltip to all icons in footer
-
 
 ## Contributions
 
@@ -198,7 +201,7 @@ https://github.com/react-icons/react-icons
 
 ### License
 
-### This project is licensed under the MIT License - see the [LICENSE]([LICENSE.md](https://github.com/FilipPaskalev/reactjs-bs5-portfolio/blob/main/LICENSE)) file for details
+### This project is licensed under the MIT License - see the [LICENSE](<[LICENSE.md](https://github.com/FilipPaskalev/reactjs-bs5-portfolio/blob/main/LICENSE)>) file for details
 
 MIT License
 
@@ -222,7 +225,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### [Bootstrap 5 License](https://github.com/twbs/bootstrap/blob/main/LICENSE) 
+### [Bootstrap 5 License](https://github.com/twbs/bootstrap/blob/main/LICENSE)
 
 The MIT License (MIT)
 
@@ -249,8 +252,8 @@ THE SOFTWARE.
 ### Copyright
 
 <!-- TODO -->
-Copyright TODO: ADD TEXT. Code released under the [MIT](TODO add link) license.
 
+Copyright TODO: ADD TEXT. Code released under the [MIT](TODO add link) license.
 
 <!-- TODO refactor and reorder everything what is after this comment -->
 
@@ -270,6 +273,7 @@ Copyright TODO: ADD TEXT. Code released under the [MIT](TODO add link) license.
 ```
 
 ### Prettier Configuration
+
 - `"singleQuote"`: true: Use single quotes instead of double quotes.
 - "semi": false: Don't use semicolons at the end of statements.
 - `"tabWidth"`: 2: Use 2 spaces for indentation.

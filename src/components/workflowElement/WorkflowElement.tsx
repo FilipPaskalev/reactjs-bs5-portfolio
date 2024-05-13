@@ -1,16 +1,16 @@
-import { FaCheck } from "react-icons/fa6";
+import { FaCheck } from 'react-icons/fa6'
 
 type Props = {
-  description: string;
-};
+  description: string
+}
 
 const WorkflowElement = ({ description }: Props) => {
   return (
     <article>
-      <FaCheck className="text-primary mb-1" />
+      <FaCheck className='text-primary mb-1' />
       {` ${description}`}
     </article>
-  );
-};
+  )
+}
 
-export default WorkflowElement;
+export default WorkflowElement
