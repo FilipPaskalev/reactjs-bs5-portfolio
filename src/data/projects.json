@@ -1,7 +1,7 @@
 [
   {
     "title": "Project One",
-    "image": "path/to/image1.jpg",
+    "image": "https://via.assets.so/game.png?id=99&q=95&w=360&h=360&fit=fill",
     "link": "https://github.com/user/project-one",
     "demo": "https://project-one.demo",
     "year": 2023,
@@ -13,19 +13,29 @@
   },
   {
     "title": "Project Two",
-    "image": "path/to/image2.jpg",
+    "image": "https://via.assets.so/game.png?id=77&q=95&w=360&h=360&fit=fill",
     "link": "https://github.com/user/project-two",
     "demo": "https://project-two.demo",
     "year": 2022,
     "description": [
       "Short description part 1 of project two.",
-      "Another detail about project two."
+      "Another detail about project two.",
+      "And another one.",
+      "And another one."
     ],
-    "technologies": ["React", "Node.js", "Express"]
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "MongoDB",
+      "Mongoose",
+      "Bootstrap"
+    ]
   },
   {
     "title": "Project Three",
-    "image": "path/to/image3.jpg",
+    "image": "https://via.assets.so/game.png?id=112&q=95&w=360&h=360&fit=fill",
     "link": "https://github.com/user/project-three",
     "demo": "https://project-three.demo",
     "year": 2021,
@@ -37,7 +47,7 @@
   },
   {
     "title": "Project Four",
-    "image": "path/to/image4.jpg",
+    "image": "https://via.assets.so/game.png?id=56&q=95&w=360&h=360&fit=fill",
     "link": "https://github.com/user/project-four",
     "demo": "https://project-four.demo",
     "year": 2020,
