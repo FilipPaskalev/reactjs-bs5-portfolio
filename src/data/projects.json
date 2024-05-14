@@ -1,51 +1,50 @@
 [
   {
-    "title": "Project 1",
-    "description": ["Description 1", "Description 2", "Description 3"],
-    "startDate": "2023-01-01",
-    "endDate": "2023-06-30",
-    "website": "https://example.com/project1"
+    "title": "Project One",
+    "image": "path/to/image1.jpg",
+    "link": "https://github.com/user/project-one",
+    "demo": "https://project-one.demo",
+    "year": 2023,
+    "description": [
+      "Short description part 1 of project one.",
+      "Another detail about project one."
+    ],
+    "technologies": ["React", "TypeScript", "Bootstrap"]
   },
   {
-    "title": "Project 2",
-    "description": ["Description 1", "Description 2", "Description 3"],
-    "startDate": "2023-07-01",
-    "endDate": "2023-12-31",
-    "website": "https://example.com/project2"
+    "title": "Project Two",
+    "image": "path/to/image2.jpg",
+    "link": "https://github.com/user/project-two",
+    "demo": "https://project-two.demo",
+    "year": 2022,
+    "description": [
+      "Short description part 1 of project two.",
+      "Another detail about project two."
+    ],
+    "technologies": ["React", "Node.js", "Express"]
   },
   {
-    "title": "Project 3",
-    "description": ["Description 1", "Description 2", "Description 3"],
-    "startDate": "2024-01-01",
-    "endDate": "2024-06-30",
-    "website": "https://example.com/project3"
+    "title": "Project Three",
+    "image": "path/to/image3.jpg",
+    "link": "https://github.com/user/project-three",
+    "demo": "https://project-three.demo",
+    "year": 2021,
+    "description": [
+      "Short description part 1 of project three.",
+      "Another detail about project three."
+    ],
+    "technologies": ["Python", "Flask", "SQLAlchemy"]
   },
   {
-    "title": "Project 4",
-    "description": ["Description 1", "Description 2", "Description 3"],
-    "startDate": "2024-07-01",
-    "endDate": "2024-12-31",
-    "website": "https://example.com/project4"
-  },
-  {
-    "title": "Project 5",
-    "description": ["Description 1", "Description 2", "Description 3"],
-    "startDate": "2025-01-01",
-    "endDate": "2025-06-30",
-    "website": "https://example.com/project5"
-  },
-  {
-    "title": "Project 6",
-    "description": ["Description 1", "Description 2", "Description 3"],
-    "startDate": "2025-07-01",
-    "endDate": "2025-12-31",
-    "website": "https://example.com/project6"
-  },
-  {
-    "title": "Project 7",
-    "description": ["Description 1", "Description 2", "Description 3"],
-    "startDate": "2026-01-01",
-    "endDate": "2026-06-30",
-    "website": "https://example.com/project7"
+    "title": "Project Four",
+    "image": "path/to/image4.jpg",
+    "link": "https://github.com/user/project-four",
+    "demo": "https://project-four.demo",
+    "year": 2020,
+    "description": [
+      "Short description part 1 of project four.",
+      "Another detail about project four."
+    ],
+    "technologies": ["Java", "Spring Boot", "Hibernate"]
   }
 ]
