@@ -115,7 +115,7 @@
     "technologies": ["Python", "TensorFlow", "Django"],
     "category": ["AI", "Customer Service"],
     "field": ["AI Development", "Web Development"],
-    "status": "Fully Cooked",
+    "status": "Simmering",
     "topProject": false,
     "team": [
       {
@@ -226,7 +226,7 @@
     "technologies": ["IoT", "Python", "Raspberry Pi"],
     "category": ["IoT", "Home Automation"],
     "field": ["Embedded Systems", "Software Development"],
-    "status": "Fully Cooked",
+    "status": "Recipe Development",
     "topProject": true,
     "team": [
       {
