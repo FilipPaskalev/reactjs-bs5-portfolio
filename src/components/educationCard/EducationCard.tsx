@@ -2,7 +2,7 @@ import { IoCalendarNumberOutline } from 'react-icons/io5'
 import { FaTrophy } from 'react-icons/fa6'
 import { CiLink } from 'react-icons/ci'
 
-type Props = {
+type TEducationCardProps = {
   institution: {
     name: string
     website: string
@@ -27,7 +27,7 @@ const EducationCard = ({
   grade,
   startDate,
   endDate
-}: Props) => {
+}: TEducationCardProps) => {
   return (
     <section className='d-flex flex-column flex-md-row justify-content-between mb-5'>
       <hgroup className='flex-grow-1'>
