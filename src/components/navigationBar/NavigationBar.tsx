@@ -2,7 +2,13 @@ import { useState, useEffect, useRef } from 'react'
 import USER_DATA from '../../data/user.json'
 import AVATAR from '../../assets/png/avatar-hi.png'
 import { Container, Navbar, Nav } from 'react-bootstrap'
-import { FaTelegram, FaWhatsapp, FaViber } from 'react-icons/fa'
+import {
+  FaTelegram,
+  FaWhatsapp,
+  FaViber,
+  FaBars,
+  FaTimes
+} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import EPagesPaths from '../../enum/EPagesPaths'
 
@@ -60,7 +66,9 @@ const NavigationBar = () => {
           />
         </Container>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls='navbarResponsive' onClick={handleToggle} />
+      <Navbar.Toggle aria-controls='navbarResponsive' onClick={handleToggle}>
+        {menuOpen ? <FaTimes /> : <FaBars />}
+      </Navbar.Toggle>
       <Navbar.Collapse id='navbarResponsive'>
         <Nav className='navbar-nav'>
           <Nav.Item>
