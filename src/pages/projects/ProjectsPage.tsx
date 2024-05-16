@@ -12,8 +12,9 @@ const ProjectsPage = () => {
 
   const categories = [
     'All',
-    ...new Set(PROJECTS_DATA.map(project => project.category))
+    ...new Set(PROJECTS_DATA.flatMap(project => project.category))
   ]
+
   const allTechnologies =
     selectedCategory === 'All'
       ? [...new Set(PROJECTS_DATA.flatMap(project => project.technologies))]

@@ -1,113 +1,269 @@
 [
   {
-    "title": "Project One",
-    "image": "https://via.assets.so/game.png?id=99&q=95&w=360&h=360&fit=fill",
-    "link": "https://github.com/user/project-one",
-    "demo": "https://project-one.demo",
+    "projectId": "P001",
+    "title": "E-Commerce Website Redesign",
+    "image": "https://via.placeholder.com/360x360",
+    "link": "https://github.com/user/e-commerce-redesign",
+    "demo": "https://ecommerce-redesign.demo",
     "year": 2023,
     "description": [
-      "Short description part 1 of project one.",
-      "Another detail about project one."
+      "Complete overhaul of the existing e-commerce platform.",
+      "Improved user experience, enhanced performance, and modernized design."
     ],
-    "technologies": ["React", "TypeScript", "Bootstrap"],
-    "category": ["Frontend"]
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "category": ["Frontend", "Backend"],
+    "field": ["Web Development", "UI/UX Design"],
+    "status": "Fully Cooked",
+    "topProject": true,
+    "team": [
+      {
+        "name": "Alex Johnson",
+        "role": "Lead Developer",
+        "contact": "alex.johnson@example.com"
+      },
+      {
+        "name": "Sophia Lee",
+        "role": "UI/UX Designer",
+        "contact": "sophia.lee@example.com"
+      }
+    ],
+    "duration": "9 months",
+    "client": { "name": "Online Retail Inc.", "contact": "client@example.com" },
+    "goals": ["Increase conversion rate", "Improve mobile responsiveness"],
+    "budget": "$100,000",
+    "resources": ["4 developers", "2 designers", "Cloud infrastructure"],
+    "challenges": [
+      "Legacy code migration",
+      "Integration with third-party APIs"
+    ],
+    "successMetrics": ["10% increase in sales", "30% decrease in bounce rate"],
+    "versionControl": {
+      "repository": "https://github.com/user/e-commerce-redesign",
+      "branch": "main"
+    },
+    "dependencies": ["React", "Node.js", "Express", "MongoDB"],
+    "impact": "Redesign led to higher user engagement and improved sales performance.",
+    "lastStatusUpdate": "2023-12-15",
+    "version": "2.0",
+    "documentation": "https://github.com/user/e-commerce-redesign/wiki"
   },
   {
-    "title": "Project One",
-    "image": "https://via.assets.so/game.png?id=56&q=95&w=360&h=360&fit=fill",
-    "link": "https://github.com/user/project-one",
-    "demo": "https://project-one.demo",
-    "year": 2023,
-    "description": [
-      "Short description part 1 of project one.",
-      "Another detail about project one."
-    ],
-    "technologies": ["React", "TypeScript", "Bootstrap"],
-    "category": ["Frontend"]
-  },
-  {
-    "title": "Project One",
-    "image": "https://via.assets.so/game.png?id=88&q=95&w=360&h=360&fit=fill",
-    "link": "https://github.com/user/project-one",
-    "demo": "https://project-one.demo",
-    "year": 2023,
-    "description": [
-      "Short description part 1 of project one.",
-      "Another detail about project one."
-    ],
-    "technologies": ["React", "TypeScript", "Bootstrap"],
-    "category": ["Frontend", "Backend"]
-  },
-  {
-    "title": "Project Two",
-    "image": "https://via.assets.so/game.png?id=77&q=95&w=360&h=360&fit=fill",
-    "link": "https://github.com/user/project-two",
-    "demo": "https://project-two.demo",
+    "projectId": "P002",
+    "title": "Mobile Health App Development",
+    "image": "https://via.placeholder.com/360x360",
+    "link": "https://github.com/user/health-app",
+    "demo": "https://health-app.demo",
     "year": 2022,
     "description": [
-      "Short description part 1 of project two.",
-      "Another detail about project two.",
-      "And another one.",
-      "And another one."
+      "Development of a mobile application for tracking health and fitness goals.",
+      "Features include workout tracking, nutrition monitoring, and goal setting."
     ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "Express",
-      "TypeScript",
-      "MongoDB",
-      "Mongoose",
-      "Bootstrap"
+    "technologies": ["React Native", "Firebase"],
+    "category": ["Mobile App"],
+    "field": ["Mobile Development", "Healthcare"],
+    "status": "Fully Cooked",
+    "topProject": true,
+    "team": [
+      {
+        "name": "Ryan Smith",
+        "role": "Lead Developer",
+        "contact": "ryan.smith@example.com"
+      },
+      {
+        "name": "Emma White",
+        "role": "UI/UX Designer",
+        "contact": "emma.white@example.com"
+      }
     ],
-    "category": ["3D design"]
+    "duration": "12 months",
+    "client": {
+      "name": "HealthTech Solutions",
+      "contact": "client@example.com"
+    },
+    "goals": ["Improve user's health awareness", "Enhance user experience"],
+    "budget": "$150,000",
+    "resources": ["5 developers", "2 designers", "Cloud infrastructure"],
+    "challenges": [
+      "Integration with wearables",
+      "Real-time data synchronization"
+    ],
+    "successMetrics": [
+      "Increased user retention by 40%",
+      "Positive user feedback"
+    ],
+    "versionControl": {
+      "repository": "https://github.com/user/health-app",
+      "branch": "main"
+    },
+    "dependencies": ["React Native", "Firebase"],
+    "impact": "App contributed to improved health outcomes for users.",
+    "lastStatusUpdate": "2022-11-30",
+    "version": "1.5",
+    "documentation": "https://github.com/user/health-app/wiki"
   },
   {
-    "title": "Project Two",
-    "image": "https://via.assets.so/game.png?id=74&q=95&w=360&h=360&fit=fill",
-    "link": "https://github.com/user/project-two",
-    "demo": "https://project-two.demo",
+    "projectId": "P003",
+    "title": "AI Chatbot Integration",
+    "image": "https://via.placeholder.com/360x360",
+    "link": "https://github.com/user/chatbot",
+    "demo": "https://chatbot.demo",
+    "year": 2023,
+    "description": [
+      "Integration of an AI-powered chatbot into an existing customer service platform.",
+      "Features include natural language processing and automated responses."
+    ],
+    "technologies": ["Python", "TensorFlow", "Django"],
+    "category": ["AI", "Customer Service"],
+    "field": ["AI Development", "Web Development"],
+    "status": "Fully Cooked",
+    "topProject": false,
+    "team": [
+      {
+        "name": "Olivia Brown",
+        "role": "Lead Developer",
+        "contact": "olivia.brown@example.com"
+      },
+      {
+        "name": "James Wilson",
+        "role": "Data Scientist",
+        "contact": "james.wilson@example.com"
+      }
+    ],
+    "duration": "8 months",
+    "client": {
+      "name": "Chat Solutions Inc.",
+      "contact": "client@example.com"
+    },
+    "goals": ["Improve customer support efficiency", "Enhance user experience"],
+    "budget": "$120,000",
+    "resources": ["3 developers", "1 data scientist", "AI model training data"],
+    "challenges": [
+      "Training accurate models",
+      "Integrating with existing systems"
+    ],
+    "successMetrics": [
+      "50% reduction in response time",
+      "Positive user feedback"
+    ],
+    "versionControl": {
+      "repository": "https://github.com/user/chatbot",
+      "branch": "main"
+    },
+    "dependencies": ["Python", "TensorFlow", "Django"],
+    "impact": "Chatbot led to faster response times and increased customer satisfaction.",
+    "lastStatusUpdate": "2023-10-31",
+    "version": "1.2",
+    "documentation": "https://github.com/user/chatbot/wiki"
+  },
+  {
+    "projectId": "P004",
+    "title": "Data Visualization Dashboard",
+    "image": "https://via.placeholder.com/360x360",
+    "link": "https://github.com/user/data-dashboard",
+    "demo": "https://data-dashboard.demo",
     "year": 2022,
     "description": [
-      "Short description part 1 of project two.",
-      "Another detail about project two.",
-      "And another one.",
-      "And another one."
+      "Development of a data visualization dashboard for analyzing business metrics.",
+      "Features include interactive charts, graphs, and customizable reports."
     ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "Express",
-      "TypeScript",
-      "MongoDB",
-      "Mongoose",
-      "Bootstrap"
+    "technologies": ["React", "D3.js", "Node.js"],
+    "category": ["Data Visualization", "Dashboard"],
+    "field": ["Web Development", "Data Analytics"],
+    "status": "Fully Cooked",
+    "topProject": false,
+    "team": [
+      {
+        "name": "Ethan Miller",
+        "role": "Lead Developer",
+        "contact": "ethan.miller@example.com"
+      },
+      {
+        "name": "Ava Martinez",
+        "role": "Frontend Developer",
+        "contact": "ava.martinez@example.com"
+      }
     ],
-    "category": ["3D design"]
+    "duration": "10 months",
+    "client": {
+      "name": "Analytics Solutions Ltd.",
+      "contact": "client@example.com"
+    },
+    "goals": [
+      "Visualize key performance indicators",
+      "Facilitate data-driven decision making"
+    ],
+    "budget": "$80,000",
+    "resources": ["3 developers", "1 designer", "Data analytics tools"],
+    "challenges": [
+      "Handling large datasets",
+      "Creating intuitive user interfaces"
+    ],
+    "successMetrics": [
+      "Increased efficiency in data analysis",
+      "Positive feedback from stakeholders"
+    ],
+    "versionControl": {
+      "repository": "https://github.com/user/data-dashboard",
+      "branch": "main"
+    },
+    "dependencies": ["React", "D3.js", "Node.js"],
+    "impact": "Dashboard improved data visibility and informed strategic business decisions.",
+    "lastStatusUpdate": "2022-12-31",
+    "version": "1.3",
+    "documentation": "https://github.com/user/data-dashboard/wiki"
   },
   {
-    "title": "Project Three",
-    "image": "https://via.assets.so/game.png?id=112&q=95&w=360&h=360&fit=fill",
-    "link": "https://github.com/user/project-three",
-    "demo": "https://project-three.demo",
-    "year": 2021,
+    "projectId": "P005",
+    "title": "Smart Home Automation System",
+    "image": "https://via.placeholder.com/360x360",
+    "link": "https://github.com/user/smart-home-automation",
+    "demo": "https://smart-home-automation.demo",
+    "year": 2024,
     "description": [
-      "Short description part 1 of project three.",
-      "Another detail about project three."
+      "Development of a smart home automation system for controlling various devices.",
+      "Features include voice commands, scheduling, and remote access."
     ],
-    "technologies": ["Python", "Flask", "SQLAlchemy"],
-    "category": ["Fullstack"]
-  },
-  {
-    "title": "Project Four",
-    "image": "https://via.assets.so/game.png?id=56&q=95&w=360&h=360&fit=fill",
-    "link": "https://github.com/user/project-four",
-    "demo": "https://project-four.demo",
-    "year": 2020,
-    "description": [
-      "Short description part 1 of project four.",
-      "Another detail about project four."
+    "technologies": ["IoT", "Python", "Raspberry Pi"],
+    "category": ["IoT", "Home Automation"],
+    "field": ["Embedded Systems", "Software Development"],
+    "status": "Fully Cooked",
+    "topProject": true,
+    "team": [
+      {
+        "name": "Elijah Clark",
+        "role": "Lead Developer",
+        "contact": "elijah.clark@example.com"
+      },
+      {
+        "name": "Nora Adams",
+        "role": "Embedded Systems Engineer",
+        "contact": "nora.adams@example.com"
+      }
     ],
-    "technologies": ["Java", "Spring Boot", "Hibernate"],
-    "category": ["Backend", "Frontend"]
+    "duration": "12 months",
+    "client": {
+      "name": "SmartHome Solutions Ltd.",
+      "contact": "client@example.com"
+    },
+    "goals": ["Enhance home security", "Increase energy efficiency"],
+    "budget": "$200,000",
+    "resources": ["6 developers", "3 hardware engineers", "IoT devices"],
+    "challenges": [
+      "Interoperability of different device protocols",
+      "Ensuring system reliability"
+    ],
+    "successMetrics": [
+      "Reduced energy consumption by 20%",
+      "Improved security measures"
+    ],
+    "versionControl": {
+      "repository": "https://github.com/user/smart-home-automation",
+      "branch": "main"
+    },
+    "dependencies": ["Python", "Raspberry Pi", "Home Assistant"],
+    "impact": "Smart home system led to increased convenience and improved home management for users.",
+    "lastStatusUpdate": "2024-11-30",
+    "version": "2.0",
+    "documentation": "https://github.com/user/smart-home-automation/wiki"
   }
 ]
