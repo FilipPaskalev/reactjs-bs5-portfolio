@@ -1,5 +1,6 @@
 import { Card, Button } from 'react-bootstrap'
 import TProject from '../../types/TProject'
+import { IoCalendarNumberOutline } from 'react-icons/io5'
 
 type ProjectCardProps = {
   project: TProject
@@ -7,11 +8,13 @@ type ProjectCardProps = {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <Card className='h-100 border-0 shadow-sm'>
+    <Card className='h-100 border-0 shadow-sm' bg='light'>
       <Card.Img variant='top' src={project.image} />
       <Card.Body className='d-flex flex-column'>
         <div>
-          <Card.Title>{project.title}</Card.Title>
+          <Card.Title>
+            <h3>{project.title}</h3>
+          </Card.Title>
           <Card.Text>
             {project.description.map((desc, index) => (
               <p key={index}>{desc}</p>
@@ -19,7 +22,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           </Card.Text>
         </div>
         <div>
-          <p>Year: {project.year}</p>
+          <p>
+            {project.year} <IoCalendarNumberOutline className='mb-1' />
+          </p>
           <Button
             variant='primary'
             href={project.link}

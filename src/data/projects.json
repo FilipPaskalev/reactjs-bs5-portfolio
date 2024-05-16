@@ -9,7 +9,34 @@
       "Short description part 1 of project one.",
       "Another detail about project one."
     ],
-    "technologies": ["React", "TypeScript", "Bootstrap"]
+    "technologies": ["React", "TypeScript", "Bootstrap"],
+    "category": ["Frontend"]
+  },
+  {
+    "title": "Project One",
+    "image": "https://via.assets.so/game.png?id=56&q=95&w=360&h=360&fit=fill",
+    "link": "https://github.com/user/project-one",
+    "demo": "https://project-one.demo",
+    "year": 2023,
+    "description": [
+      "Short description part 1 of project one.",
+      "Another detail about project one."
+    ],
+    "technologies": ["React", "TypeScript", "Bootstrap"],
+    "category": ["Frontend"]
+  },
+  {
+    "title": "Project One",
+    "image": "https://via.assets.so/game.png?id=88&q=95&w=360&h=360&fit=fill",
+    "link": "https://github.com/user/project-one",
+    "demo": "https://project-one.demo",
+    "year": 2023,
+    "description": [
+      "Short description part 1 of project one.",
+      "Another detail about project one."
+    ],
+    "technologies": ["React", "TypeScript", "Bootstrap"],
+    "category": ["Frontend", "Backend"]
   },
   {
     "title": "Project Two",
@@ -31,7 +58,31 @@
       "MongoDB",
       "Mongoose",
       "Bootstrap"
-    ]
+    ],
+    "category": ["3D design"]
+  },
+  {
+    "title": "Project Two",
+    "image": "https://via.assets.so/game.png?id=74&q=95&w=360&h=360&fit=fill",
+    "link": "https://github.com/user/project-two",
+    "demo": "https://project-two.demo",
+    "year": 2022,
+    "description": [
+      "Short description part 1 of project two.",
+      "Another detail about project two.",
+      "And another one.",
+      "And another one."
+    ],
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "MongoDB",
+      "Mongoose",
+      "Bootstrap"
+    ],
+    "category": ["3D design"]
   },
   {
     "title": "Project Three",
@@ -43,7 +94,8 @@
       "Short description part 1 of project three.",
       "Another detail about project three."
     ],
-    "technologies": ["Python", "Flask", "SQLAlchemy"]
+    "technologies": ["Python", "Flask", "SQLAlchemy"],
+    "category": ["Fullstack"]
   },
   {
     "title": "Project Four",
@@ -55,6 +107,7 @@
       "Short description part 1 of project four.",
       "Another detail about project four."
     ],
-    "technologies": ["Java", "Spring Boot", "Hibernate"]
+    "technologies": ["Java", "Spring Boot", "Hibernate"],
+    "category": ["Backend", "Frontend"]
   }
 ]

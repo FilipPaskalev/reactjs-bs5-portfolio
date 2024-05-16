@@ -6,6 +6,7 @@ type Project = {
   year: number
   description: string[]
   technologies: string[]
+  category: string[]
 }
 
 export default Project

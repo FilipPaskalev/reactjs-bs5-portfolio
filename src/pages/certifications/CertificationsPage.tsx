@@ -4,7 +4,7 @@ import CERT_DATA from '../../data/certifications.json'
 
 const CertificationsPage = () => {
   return (
-    <section className='resume-section' id='awards'>
+    <section className='resume-section' id='certifications'>
       <div className='resume-section-content'>
         <h2 className='mb-5'>Certifications</h2>
         <ul className='fa-ul list-unstyled'>
