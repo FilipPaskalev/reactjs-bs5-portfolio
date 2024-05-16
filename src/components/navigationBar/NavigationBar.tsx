@@ -1,28 +1,17 @@
-// Utils, Data, Assets
 import USER_DATA from '../../data/user.json'
 import AVATAR from '../../assets/png/avatar-hi.png'
-// React Bootstrap
-import Container from 'react-bootstrap/Container'
-// icons
+import { Container, Navbar } from 'react-bootstrap'
 import { FaTelegram, FaWhatsapp, FaViber } from 'react-icons/fa'
-import { Navbar } from 'react-bootstrap'
-// React Router
 import { Link } from 'react-router-dom'
 import EPagesPaths from '../../enum/EPagesPaths'
 
-// TODO: REFACTOR - replace components with React Bootstrap components for better readability
-
 const NavigationBar = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0)
+  }
+
   return (
-    <Navbar
-      expand='lg'
-      variant='dark'
-      bg='primary'
-      fixed='top'
-      id='sideNav'
-      // className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-      // id="sideNav"
-    >
+    <Navbar expand='lg' variant='dark' bg='primary' fixed='top' id='sideNav'>
       <Navbar.Brand href={EPagesPaths.HOME}>
         <b className='d-block d-lg-none'>
           {USER_DATA.firstName} {USER_DATA.lastName}
@@ -35,56 +24,78 @@ const NavigationBar = () => {
           />
         </Container>
       </Navbar.Brand>
-      <a
-        className='navbar-toggler'
-        type='button'
-        data-bs-toggle='collapse'
-        data-bs-target='#navbarResponsive'
-        aria-controls='navbarResponsive'
-        aria-expanded='false'
-        aria-label='Toggle navigation'
-      >
-        <span className='navbar-toggler-icon'></span>
-      </a>
-      <div className='collapse navbar-collapse' id='navbarResponsive'>
+      <Navbar.Toggle aria-controls='navbarResponsive' />
+      <Navbar.Collapse id='navbarResponsive'>
         <ul className='navbar-nav'>
           <li className='nav-item'>
-            <Link className='nav-link' to={EPagesPaths.HOME}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.HOME}
+              onClick={handleScrollToTop}
+            >
               About Me
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' to={EPagesPaths.EXPERIENCE}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.EXPERIENCE}
+              onClick={handleScrollToTop}
+            >
               Experience
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' to={EPagesPaths.EDUCATION}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.EDUCATION}
+              onClick={handleScrollToTop}
+            >
               Education
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' to={EPagesPaths.MY_SKILLS}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.MY_SKILLS}
+              onClick={handleScrollToTop}
+            >
               My Skills
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' to={EPagesPaths.INTERESTS}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.INTERESTS}
+              onClick={handleScrollToTop}
+            >
               Interests
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' to={EPagesPaths.AWARDS}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.AWARDS}
+              onClick={handleScrollToTop}
+            >
               Awards
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' to={EPagesPaths.CERTIFICATIONS}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.CERTIFICATIONS}
+              onClick={handleScrollToTop}
+            >
               Certifications
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link' to={EPagesPaths.PROJECTS}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.PROJECTS}
+              onClick={handleScrollToTop}
+            >
               Projects
             </Link>
           </li>
@@ -92,7 +103,11 @@ const NavigationBar = () => {
           <hr className='m-0 px-2 text-light' />
 
           <li className='nav-item' id='about-this-project-link'>
-            <Link className='nav-link' to={EPagesPaths.DOCUMENTATION}>
+            <Link
+              className='nav-link'
+              to={EPagesPaths.DOCUMENTATION}
+              onClick={handleScrollToTop}
+            >
               Documentation
             </Link>
           </li>
@@ -104,6 +119,7 @@ const NavigationBar = () => {
               title={USER_DATA.social.telegram.title}
               href={USER_DATA.social.telegram.href}
               target='_blank'
+              rel='noopener noreferrer'
             >
               <FaTelegram />
             </a>
@@ -114,6 +130,7 @@ const NavigationBar = () => {
               title={USER_DATA.social.whatsapp.title}
               href={USER_DATA.social.whatsapp.href}
               target='_blank'
+              rel='noopener noreferrer'
             >
               <FaWhatsapp />
             </a>
@@ -124,12 +141,13 @@ const NavigationBar = () => {
               title={USER_DATA.social.viber.title}
               href={USER_DATA.social.viber.href}
               target='_blank'
+              rel='noopener noreferrer'
             >
               <FaViber />
             </a>
           </Container>
         </ul>
-      </div>
+      </Navbar.Collapse>
     </Navbar>
   )
 }
