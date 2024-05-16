@@ -1,17 +1,53 @@
+import { useState, useEffect, useRef } from 'react'
 import USER_DATA from '../../data/user.json'
 import AVATAR from '../../assets/png/avatar-hi.png'
-import { Container, Navbar } from 'react-bootstrap'
+import { Container, Navbar, Nav } from 'react-bootstrap'
 import { FaTelegram, FaWhatsapp, FaViber } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import EPagesPaths from '../../enum/EPagesPaths'
 
 const NavigationBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false)
+  const navbarRef = useRef<HTMLDivElement>(null)
+
   const scrollToTop = () => {
     window.scrollTo(0, 0)
   }
 
+  const handleToggle = () => {
+    setMenuOpen(!menuOpen)
+  }
+
+  const handleClose = () => {
+    setMenuOpen(false)
+  }
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        navbarRef.current &&
+        !navbarRef.current.contains(event.target as Node)
+      ) {
+        setMenuOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [])
+
   return (
-    <Navbar expand='lg' variant='dark' bg='primary' fixed='top' id='sideNav'>
+    <Navbar
+      expand='lg'
+      variant='dark'
+      bg='primary'
+      fixed='top'
+      id='sideNav'
+      expanded={menuOpen}
+      ref={navbarRef}
+    >
       <Navbar.Brand href={EPagesPaths.HOME}>
         <b className='d-block d-lg-none'>
           {USER_DATA.firstName} {USER_DATA.lastName}
@@ -24,93 +60,120 @@ const NavigationBar = () => {
           />
         </Container>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls='navbarResponsive' />
+      <Navbar.Toggle aria-controls='navbarResponsive' onClick={handleToggle} />
       <Navbar.Collapse id='navbarResponsive'>
-        <ul className='navbar-nav'>
-          <li className='nav-item'>
+        <Nav className='navbar-nav'>
+          <Nav.Item>
             <Link
               className='nav-link nav-item'
               to={EPagesPaths.HOME}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               About Me
             </Link>
-          </li>
-          <li className='nav-item'>
+          </Nav.Item>
+          <Nav.Item>
             <Link
               className='nav-link'
               to={EPagesPaths.EXPERIENCE}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               Experience
             </Link>
-          </li>
-          <li className='nav-item'>
+          </Nav.Item>
+          <Nav.Item>
             <Link
               className='nav-link'
               to={EPagesPaths.EDUCATION}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               Education
             </Link>
-          </li>
-          <li className='nav-item'>
+          </Nav.Item>
+          <Nav.Item>
             <Link
               className='nav-link'
               to={EPagesPaths.MY_SKILLS}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               My Skills
             </Link>
-          </li>
-          <li className='nav-item'>
+          </Nav.Item>
+          <Nav.Item>
             <Link
               className='nav-link'
               to={EPagesPaths.INTERESTS}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               Interests
             </Link>
-          </li>
-          <li className='nav-item'>
+          </Nav.Item>
+          <Nav.Item>
             <Link
               className='nav-link'
               to={EPagesPaths.AWARDS}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               Awards
             </Link>
-          </li>
-          <li className='nav-item'>
+          </Nav.Item>
+          <Nav.Item>
             <Link
               className='nav-link'
               to={EPagesPaths.CERTIFICATIONS}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               Certifications
             </Link>
-          </li>
-          <li className='nav-item'>
+          </Nav.Item>
+          <Nav.Item>
             <Link
               className='nav-link'
               to={EPagesPaths.PROJECTS}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               Projects
             </Link>
-          </li>
+          </Nav.Item>
 
           <hr className='m-0 px-2 text-light' />
 
-          <li className='nav-item' id='about-this-project-link'>
+          <Nav.Item id='about-this-project-link'>
             <Link
               className='nav-link'
               to={EPagesPaths.DOCUMENTATION}
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop()
+                handleClose()
+              }}
             >
               Documentation
             </Link>
-          </li>
+          </Nav.Item>
           <Container className='social-icons'>
             <a
               data-bs-toggle='tooltip'
@@ -120,6 +183,7 @@ const NavigationBar = () => {
               href={USER_DATA.social.telegram.href}
               target='_blank'
               rel='noopener noreferrer'
+              onClick={handleClose}
             >
               <FaTelegram />
             </a>
@@ -131,6 +195,7 @@ const NavigationBar = () => {
               href={USER_DATA.social.whatsapp.href}
               target='_blank'
               rel='noopener noreferrer'
+              onClick={handleClose}
             >
               <FaWhatsapp />
             </a>
@@ -142,11 +207,12 @@ const NavigationBar = () => {
               href={USER_DATA.social.viber.href}
               target='_blank'
               rel='noopener noreferrer'
+              onClick={handleClose}
             >
               <FaViber />
             </a>
           </Container>
-        </ul>
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
   )
