@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import EPagesPaths from '../../enum/EPagesPaths'
 
 const NavigationBar = () => {
-  const handleScrollToTop = () => {
+  const scrollToTop = () => {
     window.scrollTo(0, 0)
   }
 
@@ -29,9 +29,9 @@ const NavigationBar = () => {
         <ul className='navbar-nav'>
           <li className='nav-item'>
             <Link
-              className='nav-link'
+              className='nav-link nav-item'
               to={EPagesPaths.HOME}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               About Me
             </Link>
@@ -40,7 +40,7 @@ const NavigationBar = () => {
             <Link
               className='nav-link'
               to={EPagesPaths.EXPERIENCE}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               Experience
             </Link>
@@ -49,7 +49,7 @@ const NavigationBar = () => {
             <Link
               className='nav-link'
               to={EPagesPaths.EDUCATION}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               Education
             </Link>
@@ -58,7 +58,7 @@ const NavigationBar = () => {
             <Link
               className='nav-link'
               to={EPagesPaths.MY_SKILLS}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               My Skills
             </Link>
@@ -67,7 +67,7 @@ const NavigationBar = () => {
             <Link
               className='nav-link'
               to={EPagesPaths.INTERESTS}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               Interests
             </Link>
@@ -76,7 +76,7 @@ const NavigationBar = () => {
             <Link
               className='nav-link'
               to={EPagesPaths.AWARDS}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               Awards
             </Link>
@@ -85,7 +85,7 @@ const NavigationBar = () => {
             <Link
               className='nav-link'
               to={EPagesPaths.CERTIFICATIONS}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               Certifications
             </Link>
@@ -94,7 +94,7 @@ const NavigationBar = () => {
             <Link
               className='nav-link'
               to={EPagesPaths.PROJECTS}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               Projects
             </Link>
@@ -106,7 +106,7 @@ const NavigationBar = () => {
             <Link
               className='nav-link'
               to={EPagesPaths.DOCUMENTATION}
-              onClick={handleScrollToTop}
+              onClick={scrollToTop}
             >
               Documentation
             </Link>
