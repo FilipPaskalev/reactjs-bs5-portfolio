@@ -4,13 +4,6 @@ import NavigationBar from './components/navigationBar/NavigationBar'
 // Router
 import { Route, Routes } from 'react-router'
 
-// Bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min'
-
-// Overriding Bootstrap styles with custom styles
-import './scss/styles.scss'
-
 // Enums
 import EPagesPaths from './enum/EPagesPaths'
 
