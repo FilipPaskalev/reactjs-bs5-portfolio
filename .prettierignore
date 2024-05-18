@@ -1,0 +1,20 @@
+# Ignore built files
+dist
+
+# Ignore node_modules
+node_modules
+
+# Ignore .env files
+.env
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore .vscode
+.vscode
+
+# Ignore .idea
+.idea
+
+# Ignore build files
+build
