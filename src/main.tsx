@@ -7,10 +7,6 @@ import App from './App.tsx'
 
 import { BrowserRouter } from 'react-router-dom'
 
-// Bootstrap
-// import 'bootstrap/dist/css/bootstrap.min.css'
-// import 'bootstrap/dist/js/bootstrap.bundle.min'
-
 // Overriding Bootstrap styles with custom styles
 import './scss/styles.scss'
 
