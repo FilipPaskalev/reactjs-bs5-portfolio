@@ -27,8 +27,8 @@ import {
 // TODO: Add icons for the workflow section skills and links to relevant projects from the portfolio
 
 import WORKFLOW from "../../data/workflow.json";
-import PageHeaderComponent from "../../components/pageHeaderComponent/PageHeaderComponent";
-import PageSubHeaderComponent from "../../components/pageSubHeaderSomponent/PageSubHeaderComponent";
+import PageHeaderComponent from "../../components/pageHeader/PageHeader";
+import PageSubHeaderComponent from "../../components/pageSubHeader/PageSubHeader";
 import PageWrapper from "../../components/pageWrapper/PageWrapper";
 
 const MySkillsPage = () => {

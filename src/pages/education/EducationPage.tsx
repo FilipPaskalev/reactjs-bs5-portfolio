@@ -1,5 +1,5 @@
 import EducationCard from "../../components/educationCard/EducationCard";
-import PageHeaderComponent from "../../components/pageHeaderComponent/PageHeaderComponent";
+import PageHeaderComponent from "../../components/pageHeader/PageHeader";
 import PageWrapper from "../../components/pageWrapper/PageWrapper";
 import EDUCATION_DATA from "../../data/education.json";
 

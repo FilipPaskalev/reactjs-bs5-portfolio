@@ -2,7 +2,7 @@ import { FaAward } from "react-icons/fa6";
 
 import CERT_DATA from "../../data/certifications.json";
 import PageWrapper from "../../components/pageWrapper/PageWrapper";
-import PageHeaderComponent from "../../components/pageHeaderComponent/PageHeaderComponent";
+import PageHeaderComponent from "../../components/pageHeader/PageHeader";
 
 const CertificationsPage = () => {
   return (

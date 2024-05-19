@@ -1,4 +1,4 @@
-import PageHeaderComponent from "../../components/pageHeaderComponent/PageHeaderComponent";
+import PageHeaderComponent from "../../components/pageHeader/PageHeader";
 import PageWrapper from "../../components/pageWrapper/PageWrapper";
 import INTERESTS_PARAGRAPHS from "../../data/interests.json";
 

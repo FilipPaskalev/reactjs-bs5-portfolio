@@ -3,8 +3,8 @@ type Props = {
   className?: string;
 };
 
-const PageHeaderComponent = ({ label, className = "mb-5" }: Props) => {
+const PageHeader = ({ label, className = "mb-5" }: Props) => {
   return <h2 className={className}>{label}</h2>;
 };
 
-export default PageHeaderComponent;
+export default PageHeader;

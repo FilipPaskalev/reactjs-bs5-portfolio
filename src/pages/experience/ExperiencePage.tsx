@@ -1,6 +1,6 @@
 import EXPERIENCE_DATA from "../../data/experience.json";
 import ExperienceCard from "../../components/experienceCard/experienceCard";
-import PageHeaderComponent from "../../components/pageHeaderComponent/PageHeaderComponent";
+import PageHeaderComponent from "../../components/pageHeader/PageHeader";
 import PageWrapper from "../../components/pageWrapper/PageWrapper";
 
 const ExperiencePage = () => {
