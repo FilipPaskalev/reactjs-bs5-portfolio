@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import Container from "react-bootstrap/Container";
 
 type PageWrapperProps = {
   children: ReactNode;
@@ -15,7 +16,7 @@ const PageWrapper = ({
 }: PageWrapperProps) => {
   return (
     <section className={sectionClassName} {...(id && { id })}>
-      <span className={contentClassName}>{children}</span>
+      <Container className={contentClassName}>{children}</Container>
     </section>
   );
 };
