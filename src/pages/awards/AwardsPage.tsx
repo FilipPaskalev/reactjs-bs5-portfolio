@@ -2,12 +2,12 @@ import { FaTrophy } from "react-icons/fa6";
 
 import AWARDS from "../../data/awards.json";
 import PageWrapper from "../../components/pageWrapper/PageWrapper";
-import PageHeaderComponent from "../../components/pageHeader/PageHeader";
+import PageHeader from "../../components/pageHeader/PageHeader";
 
 const AwardsPage = () => {
   return (
     <PageWrapper id="awards">
-      <PageHeaderComponent label="Awards" />
+      <PageHeader label="Awards" />
       <ul className="fa-ul mb-5 list-unstyled">
         {AWARDS.map((award, index) => (
           <li key={index}>

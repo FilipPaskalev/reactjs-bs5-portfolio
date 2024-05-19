@@ -2,12 +2,12 @@ import { FaAward } from "react-icons/fa6";
 
 import CERT_DATA from "../../data/certifications.json";
 import PageWrapper from "../../components/pageWrapper/PageWrapper";
-import PageHeaderComponent from "../../components/pageHeader/PageHeader";
+import PageHeader from "../../components/pageHeader/PageHeader";
 
 const CertificationsPage = () => {
   return (
     <PageWrapper id="certifications">
-      <PageHeaderComponent label="Certifications" />
+      <PageHeader label="Certifications" />
       <ul className="fa-ul list-unstyled">
         {CERT_DATA.map((certification, index) => (
           <li key={index} className="pb-2">
