@@ -27,8 +27,8 @@ import {
 // TODO: Add icons for the workflow section skills and links to relevant projects from the portfolio
 
 import WORKFLOW from "../../data/workflow.json";
-import PageHeaderComponent from "../../components/pageHeader/PageHeader";
-import PageSubHeaderComponent from "../../components/pageSubHeader/PageSubHeader";
+import PageHeader from "../../components/pageHeader/PageHeader";
+import PageSubHeader from "../../components/pageSubHeader/PageSubHeader";
 import PageWrapper from "../../components/pageWrapper/PageWrapper";
 
 const MySkillsPage = () => {
@@ -82,17 +82,17 @@ const MySkillsPage = () => {
 
   return (
     <PageWrapper id="skills">
-      <PageHeaderComponent label="My skills" />
+      <PageHeader label="My skills" />
 
-      <PageSubHeaderComponent label="Programming Languages" className="mb-2" />
+      <PageSubHeader label="Programming Languages" className="mb-2" />
       <hr />
       <ul className="list-inline dev-icons mb-5">{renderMyStack()}</ul>
 
-      <PageSubHeaderComponent label="Tools & Frameworks" className="mb-2" />
+      <PageSubHeader label="Tools & Frameworks" className="mb-2" />
       <hr />
       <ul className="list-inline dev-icons mb-5">{renderTools()}</ul>
 
-      <PageSubHeaderComponent label="Workflow" className="mb-2" />
+      <PageSubHeader label="Workflow" className="mb-2" />
       <hr />
       <section className="fa-ul mb-5">{renderWorkflow()}</section>
     </PageWrapper>
