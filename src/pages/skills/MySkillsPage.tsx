@@ -1,14 +1,14 @@
 // Font Awesome Icons
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSass } from '@fortawesome/free-brands-svg-icons/faSass'
-import { faLess } from '@fortawesome/free-brands-svg-icons/faLess'
-import { faSquareGit } from '@fortawesome/free-brands-svg-icons/faSquareGit'
-import { faYarn } from '@fortawesome/free-brands-svg-icons/faYarn'
-import { faJava } from '@fortawesome/free-brands-svg-icons/faJava'
-import { faNpm } from '@fortawesome/free-brands-svg-icons/faNpm'
-import { FaCheck } from 'react-icons/fa'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSass } from "@fortawesome/free-brands-svg-icons/faSass";
+import { faLess } from "@fortawesome/free-brands-svg-icons/faLess";
+import { faSquareGit } from "@fortawesome/free-brands-svg-icons/faSquareGit";
+import { faYarn } from "@fortawesome/free-brands-svg-icons/faYarn";
+import { faJava } from "@fortawesome/free-brands-svg-icons/faJava";
+import { faNpm } from "@fortawesome/free-brands-svg-icons/faNpm";
+import { FaCheck } from "react-icons/fa";
 
-import { FaHtml5, FaNodeJs, FaReact, FaMarkdown } from 'react-icons/fa6'
+import { FaHtml5, FaNodeJs, FaReact, FaMarkdown } from "react-icons/fa6";
 import {
   SiReactrouter,
   SiTypescript,
@@ -18,7 +18,7 @@ import {
   SiAsana,
   SiBootstrap,
   SiEclipseide
-} from 'react-icons/si'
+} from "react-icons/si";
 
 // TODO: Add more icons for the skills section
 // TODO: wrap icons in a container with a tooltip and a title, also add <a> tag to the container and relevant href links
@@ -26,7 +26,10 @@ import {
 // TODO: add icons in row and cols for responsive design, instead of a  ul list
 // TODO: Add icons for the workflow section skills and links to relevant projects from the portfolio
 
-import WORKFLOW from '../../data/workflow.json'
+import WORKFLOW from "../../data/workflow.json";
+import PageHeaderComponent from "../../components/pageHeaderComponent/PageHeaderComponent";
+import PageSubHeaderComponent from "../../components/pageSubHeaderSomponent/PageSubHeaderComponent";
+import PageWrapper from "../../components/pageWrapper/PageWrapper";
 
 const MySkillsPage = () => {
   const languages = [
@@ -35,7 +38,7 @@ const MySkillsPage = () => {
     <SiJavascript />,
     <SiTypescript />,
     <FontAwesomeIcon icon={faJava} />
-  ]
+  ];
   const tools = [
     <FaReact />,
     <FaNodeJs />,
@@ -50,49 +53,50 @@ const MySkillsPage = () => {
     <SiAdobexd />,
     <SiAsana />,
     <SiEclipseide />
-  ]
+  ];
 
   const renderWorkflow = () => {
     return WORKFLOW.map((item, index) => (
       <article key={index}>
-        <FaCheck className='text-primary' />
+        <FaCheck className="text-primary" />
         {` ${item}`}
       </article>
-    ))
-  }
+    ));
+  };
 
   const renderMyStack = () => {
     return languages.map((icon, index) => (
-      <li key={index} className='list-inline-item'>
+      <li key={index} className="list-inline-item">
         {icon}
       </li>
-    ))
-  }
+    ));
+  };
 
   const renderTools = () => {
     return tools.map((icon, index) => (
-      <li key={index} className='list-inline-item'>
+      <li key={index} className="list-inline-item">
         {icon}
       </li>
-    ))
-  }
+    ));
+  };
 
   return (
-    <section className='resume-section' id='skills'>
-      <div className='resume-section-content'>
-        <h2 className='mb-5'>Skills</h2>
+    <PageWrapper id="skills">
+      <PageHeaderComponent label="My skills" />
 
-        <h3 className='subheading mb-3'>Programming Languages</h3>
-        <ul className='list-inline dev-icons'>{renderMyStack()}</ul>
+      <PageSubHeaderComponent label="Programming Languages" className="mb-2" />
+      <hr />
+      <ul className="list-inline dev-icons mb-5">{renderMyStack()}</ul>
 
-        <h3 className='subheading mb-3'>Tools & Frameworks</h3>
-        <ul className='list-inline dev-icons'>{renderTools()}</ul>
+      <PageSubHeaderComponent label="Tools & Frameworks" className="mb-2" />
+      <hr />
+      <ul className="list-inline dev-icons mb-5">{renderTools()}</ul>
 
-        <h3 className='subheading mb-3'>Workflow</h3>
-        <section className='fa-ul mb-0'>{renderWorkflow()}</section>
-      </div>
-    </section>
-  )
-}
+      <PageSubHeaderComponent label="Workflow" className="mb-2" />
+      <hr />
+      <section className="fa-ul mb-5">{renderWorkflow()}</section>
+    </PageWrapper>
+  );
+};
 
-export default MySkillsPage
+export default MySkillsPage;

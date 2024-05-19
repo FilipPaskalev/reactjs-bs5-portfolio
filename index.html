@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="description" content="" />
   <meta name="author" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,12 +17,52 @@
 </head>
 
 <body>
-  <div id="root"></div>
+  <div id="root" class="container mt-4"></div>
+
+  <noscript>
+    <div class="container mt-4">
+      <div class="alert alert-danger" role="alert">
+        JavaScript is disabled in your browser. Please enable JavaScript to view the full functionality of this site.
+      </div>
+      <div class="alert alert-info mt-3" role="alert">
+        <h5>How to enable JavaScript</h5>
+        <p><strong>Mozilla Firefox:</strong></p>
+        <ol>
+          <li>Click the menu button and select <strong>Options</strong>.</li>
+          <li>Select the <strong>Privacy & Security</strong> panel.</li>
+          <li>Scroll down to the <strong>Permissions</strong> section.</li>
+          <li>Check the box next to <strong>Enable JavaScript</strong>.</li>
+        </ol>
+        <p><strong>Google Chrome:</strong></p>
+        <ol>
+          <li>Click the three-dot menu icon in the top right corner and select <strong>Settings</strong>.</li>
+          <li>Scroll down and click <strong>Advanced</strong>.</li>
+          <li>Under <strong>Privacy and security</strong>, click <strong>Site settings</strong>.</li>
+          <li>Click <strong>JavaScript</strong> and toggle the switch to <strong>Allowed (recommended)</strong>.</li>
+        </ol>
+        <p><strong>Microsoft Edge:</strong></p>
+        <ol>
+          <li>Click the three-dot menu icon in the top right corner and select <strong>Settings</strong>.</li>
+          <li>Scroll down and click <strong>View advanced settings</strong>.</li>
+          <li>Under <strong>Privacy and services</strong>, toggle the switch to <strong>Enable JavaScript</strong>.</li>
+        </ol>
+        <p><strong>Internet Explorer:</strong></p>
+        <ol>
+          <li>Click the gear icon in the top right corner and select <strong>Internet options</strong>.</li>
+          <li>Click the <strong>Security</strong> tab and then click <strong>Custom level...</strong>.</li>
+          <li>Scroll down to the <strong>Scripting</strong> section.</li>
+          <li>Under <strong>Active scripting</strong>, select <strong>Enable</strong> and click <strong>OK</strong>.
+          </li>
+        </ol>
+      </div>
+    </div>
+  </noscript>
+
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <script type="module" src="/src/main.tsx"></script>
+  <script type="module" src="src/main.tsx"></script>
 </body>
 
 </html>

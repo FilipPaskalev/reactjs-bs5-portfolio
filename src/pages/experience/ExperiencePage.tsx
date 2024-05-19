@@ -1,17 +1,21 @@
-import EXPERIENCE_DATA from '../../data/experience.json'
-import ExperienceCard from '../../components/experienceCard/experienceCard'
+import EXPERIENCE_DATA from "../../data/experience.json";
+import ExperienceCard from "../../components/experienceCard/experienceCard";
+import PageHeaderComponent from "../../components/pageHeaderComponent/PageHeaderComponent";
+import PageWrapper from "../../components/pageWrapper/PageWrapper";
 
 const ExperiencePage = () => {
   return (
-    <section className='resume-section' id='experience'>
-      <section className='resume-section-content'>
-        <h2 className='mb-5'>Experience</h2>
-        {EXPERIENCE_DATA.map((experience, index) => (
-          <ExperienceCard key={index} {...experience} />
-        ))}
-      </section>
-    </section>
-  )
-}
+    // <section className="resume-section" id="experience">
+    //   <section className="resume-section-content">
+    <PageWrapper id="experience">
+      <PageHeaderComponent label="Experience" />
+      {EXPERIENCE_DATA.map((experience, index) => (
+        <ExperienceCard key={index} {...experience} />
+      ))}
+      {/* </section> */}
+      {/* </section> */}
+    </PageWrapper>
+  );
+};
 
-export default ExperiencePage
+export default ExperiencePage;

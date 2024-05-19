@@ -16,9 +16,25 @@ section.resume-section {
   }
 }
 
+@include media-breakpoint-up(xs) {
+  section.resume-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  section.resume-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 @include media-breakpoint-up(md) {
   section.resume-section {
     min-height: 100vh;
+    padding-top: 1rem;
   }
 }
 

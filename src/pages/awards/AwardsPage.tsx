@@ -1,27 +1,29 @@
-import { FaTrophy } from 'react-icons/fa6'
+import { FaTrophy } from "react-icons/fa6";
 
-import AWARDS from '../../data/awards.json'
+import AWARDS from "../../data/awards.json";
+import PageWrapper from "../../components/pageWrapper/PageWrapper";
+import PageHeaderComponent from "../../components/pageHeaderComponent/PageHeaderComponent";
 
 const AwardsPage = () => {
   return (
-    <section className='resume-section' id='awards'>
-      <div className='resume-section-content'>
-        <h2 className='mb-5'>Awards</h2>
-        <ul className='fa-ul mb-5 list-unstyled'>
-          {AWARDS.map((award, index) => (
-            <li key={index} className='pb-4'>
-              <FaTrophy className='text-warning' />{' '}
+    <PageWrapper id="awards">
+      <PageHeaderComponent label="Awards" />
+      <ul className="fa-ul mb-5 list-unstyled">
+        {AWARDS.map((award, index) => (
+          <li key={index}>
+            <b className="text-primary">
+              <FaTrophy className="text-warning mb-1" />{" "}
               {award.ranking.position.toString()}
-              {award.ranking.suffix} Place - {award.event.name}{' '}
-              <span className='text-primary'>{award.event.date}</span>
-              <div>{award.event.location}</div>
-              <p className='pt-2'>{award.description}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  )
-}
+              {award.ranking.suffix} Place
+            </b>{" "}
+            - {award.event.name} <i>{award.event.date}</i>
+            <div>{award.event.location}</div>
+            <p className="pt-2">{award.description}</p>
+          </li>
+        ))}
+      </ul>
+    </PageWrapper>
+  );
+};
 
-export default AwardsPage
+export default AwardsPage;
