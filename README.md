@@ -103,7 +103,7 @@ npm install
 
 | [w3school](https://www.w3schools.com/react/react_router.asp)
 | [How To Create A Navbar In React With Routing](https://www.youtube.com/watch?v=SLfhMt5OUPI)
-| Recourse |
+| [Scroll to anchor element with react router](https://dev.to/mindactuate/scroll-to-anchor-element-with-react-router-v6-38op) |
 
 ### Bootstrap
 
