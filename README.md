@@ -162,10 +162,14 @@ npm install
 | Recourse
 | Recourse |
 
-### Graphical resources
+### Other resources, tools, etc.
 
-https://devicon.dev/
-https://github.com/react-icons/react-icons
+- https://devicon.dev/
+- https://www.flaticon.com/
+- https://github.com/react-icons/react-icons
+- https://placehold.co/
+- https://react-icons.github.io/react-icons/
+- https://www.befunky.com/
 
 ## About
 

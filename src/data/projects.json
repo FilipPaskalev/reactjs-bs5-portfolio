@@ -1,10 +1,10 @@
 [
   {
-    "projectId": "P001",
+    "projectId": "reactjs-bs5-portfolio",
     "title": "E-Commerce Website Redesign",
     "image": "https://loremflickr.com/1400/400/computer",
-    "link": "https://github.com/user/e-commerce-redesign",
-    "demo": "https://ecommerce-redesign.demo",
+    "link": "https://github.com/FilipPaskalev/reactjs-bs5-portfolio.git",
+    "demo": "https://filippaskalev.info",
     "year": 2023,
     "description": [
       "Complete overhaul of the existing e-commerce platform.",
