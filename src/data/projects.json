@@ -2,7 +2,7 @@
   {
     "projectId": "P001",
     "title": "E-Commerce Website Redesign",
-    "image": "https://via.placeholder.com/360x360",
+    "image": "https://loremflickr.com/1400/400/computer",
     "link": "https://github.com/user/e-commerce-redesign",
     "demo": "https://ecommerce-redesign.demo",
     "year": 2023,
@@ -44,13 +44,13 @@
     "dependencies": ["React", "Node.js", "Express", "MongoDB"],
     "impact": "Redesign led to higher user engagement and improved sales performance.",
     "lastStatusUpdate": "2023-12-15",
-    "version": "2.0",
+    "version": "2.0.1",
     "documentation": "https://github.com/user/e-commerce-redesign/wiki"
   },
   {
     "projectId": "P002",
     "title": "Mobile Health App Development",
-    "image": "https://via.placeholder.com/360x360",
+    "image": "https://loremflickr.com/1400/400",
     "link": "https://github.com/user/health-app",
     "demo": "https://health-app.demo",
     "year": 2022,
@@ -98,13 +98,13 @@
     "dependencies": ["React Native", "Firebase"],
     "impact": "App contributed to improved health outcomes for users.",
     "lastStatusUpdate": "2022-11-30",
-    "version": "1.5",
+    "version": "v1.5.0",
     "documentation": "https://github.com/user/health-app/wiki"
   },
   {
     "projectId": "P003",
     "title": "AI Chatbot Integration",
-    "image": "https://via.placeholder.com/360x360",
+    "image": "https://loremflickr.com/1400/400",
     "link": "https://github.com/user/chatbot",
     "demo": "https://chatbot.demo",
     "year": 2023,
@@ -158,7 +158,7 @@
   {
     "projectId": "P004",
     "title": "Data Visualization Dashboard",
-    "image": "https://via.placeholder.com/360x360",
+    "image": "https://loremflickr.com/1400/400",
     "link": "https://github.com/user/data-dashboard",
     "demo": "https://data-dashboard.demo",
     "year": 2022,
@@ -215,7 +215,7 @@
   {
     "projectId": "P005",
     "title": "Smart Home Automation System",
-    "image": "https://via.placeholder.com/360x360",
+    "image": "https://baconmockup.com/1400/400",
     "link": "https://github.com/user/smart-home-automation",
     "demo": "https://smart-home-automation.demo",
     "year": 2024,
@@ -263,7 +263,7 @@
     "dependencies": ["Python", "Raspberry Pi", "Home Assistant"],
     "impact": "Smart home system led to increased convenience and improved home management for users.",
     "lastStatusUpdate": "2024-11-30",
-    "version": "2.0",
+    "version": "v2.3.6",
     "documentation": "https://github.com/user/smart-home-automation/wiki"
   }
 ]

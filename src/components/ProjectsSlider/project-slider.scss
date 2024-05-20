@@ -1,0 +1,85 @@
+@import "../../scss/variables/colors.scss";
+
+.position-relative {
+  position: relative;
+}
+
+.version-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: $gray-800;
+  color: whitesmoke;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.icon-link {
+  // color: $primary;
+  transition: color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  background-color: $gray-800;
+  color: whitesmoke;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  // margin-right: 1.5rem;
+  
+  &:hover {
+    color: whitesmoke;
+    background-color: $primary;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .img-height {
+    min-height: 250px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .img-height {
+    min-height: 250px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .img-height {
+    min-height: 330px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .img-height {
+    min-height: 300px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .img-height {
+    min-height: 350px;
+  }
+}
+
+// Extra extra large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .img-height {
+    min-height: 400px;
+  }
+}

@@ -1,0 +1,30 @@
+// project-card.scss
+.image-container {
+  min-height: 250px; // Ensure the container has a minimum height
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; // Ensure any overflow is hidden
+}
+
+.card-img {
+  // width: 100%; // Make the image take up the full width of its container
+  min-height: 250px; // Ensure the image has a minimum height
+  // width: auto;
+  // height: auto; // Maintain aspect ratio
+  object-fit: cover; // Ensure the image covers the container
+}
+
+.project-card {
+  margin-bottom: 20px;
+}
+
+.project-card .btn {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-card .btn + .btn {
+  margin-left: 10px;
+}

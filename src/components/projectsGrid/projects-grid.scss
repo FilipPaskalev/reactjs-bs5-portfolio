@@ -1,0 +1,14 @@
+// projects-grid.scss
+.project-card {
+  margin-bottom: 20px;
+}
+
+.project-card .btn {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-card .btn + .btn {
+  margin-left: 10px;
+}
